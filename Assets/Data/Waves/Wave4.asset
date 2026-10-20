@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad1bc6e719935d41bb22179c067f6d5, type: 3}
+  m_Name: Wave4
+  m_EditorClassIdentifier: Assembly-CSharp::WaveDefinition
+  title: THE SIEGE
+  spawnInterval: 0.7
+  entries:
+  - prefab: {fileID: 441254526311819488, guid: b12137f11cd1d6c48b304002feff66c2, type: 3}
+    count: 12
+  - prefab: {fileID: 8958086111535661075, guid: 77a3ea3f7fa666d478a103f1bcbc7e8d, type: 3}
+    count: 5
+  - prefab: {fileID: 1737090063333594791, guid: 0b266a14dda0e7a42adb7d77b465939f, type: 3}
+    count: 4

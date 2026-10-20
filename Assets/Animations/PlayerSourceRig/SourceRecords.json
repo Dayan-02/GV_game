@@ -1,0 +1,32 @@
+[
+  {
+    "file": "defaultmale_rig.fbx",
+    "sha256": "E10AEA1D9E6455AE097457ED5A1E73B9376F2338466A164AD5DD7E02B98005A0",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Rig/defaultmale_rig.fbx",
+    "license": "Unity Companion License for Unity-dependent projects"
+  },
+  {
+    "file": "m@Idle.fbx",
+    "sha256": "D9962CB621FFA452D6DBA18C75F2840BED99787C39BF30A2998F91091F9218CD",
+    "source": "Copied without modification from Assets/Art/ImportedCharacters/UnityMotion/m@Idle.fbx; see its SourceRecords.json",
+    "license": "Unity Companion License for Unity-dependent projects"
+  },
+  {
+    "file": "m@RunForwards.fbx",
+    "sha256": "7CA257499252B77CFDCAA822B4A30FB56834C063F9867694EAE1B7C3BDD6C316",
+    "source": "Copied without modification from Assets/Art/ImportedCharacters/UnityMotion/m@RunForwards.fbx; see its SourceRecords.json",
+    "license": "Unity Companion License for Unity-dependent projects"
+  },
+  {
+    "file": "m@SprintForwards.fbx",
+    "sha256": "95C6728B2B72AE3803730D722BFC4BC7B7B94B4A13A095306C2DE09550793A42",
+    "source": "Copied without modification from Assets/Art/ImportedCharacters/UnityMotion/m@SprintForwards.fbx; see its SourceRecords.json",
+    "license": "Unity Companion License for Unity-dependent projects"
+  },
+  {
+    "file": "m@WalkForwards.fbx",
+    "sha256": "1E7F2EE55068DD5DD395503D8569EA4A0B7F442AB6AA5C4AC5D2824D709BDB49",
+    "source": "Copied without modification from Assets/Art/ImportedCharacters/UnityMotion/m@WalkForwards.fbx; see its SourceRecords.json",
+    "license": "Unity Companion License for Unity-dependent projects"
+  }
+]

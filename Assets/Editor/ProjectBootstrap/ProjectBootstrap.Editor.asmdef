@@ -1,0 +1,5 @@
+{
+    "name": "ProjectBootstrap.Editor",
+    "includePlatforms": ["Editor"],
+    "autoReferenced": false
+}

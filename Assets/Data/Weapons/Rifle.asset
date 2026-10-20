@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25d54e2cebd20f47b49cdb91aa84a8f, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Rifle
+  category: 1
+  damage: 25
+  fireRate: 8
+  magazineSize: 30
+  reserveAmmo: 120
+  reloadTime: 2.2
+  range: 100
+  automatic: 1
+  spread: 0.6
+  pellets: 1
+  weaponPrefab: {fileID: 3228581335114313602, guid: 287a504b39aa5674fbd66ba950c4fc5c, type: 3}
+  muzzleFlashPrefab: {fileID: 3209868904560124484, guid: 79a85929ce202a74fb97b3bee48843ea, type: 3}
+  fireAudio: {fileID: 8300000, guid: 085996cc2d5ee2149bb808620d8a53fb, type: 3}
+  reloadAudio: {fileID: 8300000, guid: b81a8521764d42844a14f274a58ffdef, type: 3}
+  audioVolume: 0.35
+  recoilPitch: 0.65
+  recoilYaw: 0.19500001
+  spreadPerShot: 0.25
+  maximumExtraSpread: 2
+  spreadRecovery: 3
+  noiseRadius: 35

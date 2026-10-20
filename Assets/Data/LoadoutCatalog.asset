@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ae054510d3b8d4cba5b91db35b924f, type: 3}
+  m_Name: LoadoutCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::LoadoutCatalog
+  primaries:
+  - {fileID: 11400000, guid: d95722ef3aab0ab40ba19a86513facf4, type: 2}
+  - {fileID: 11400000, guid: 3be03e9909b08b3428059859be8e908b, type: 2}
+  - {fileID: 11400000, guid: b5e2cda809a37334a974f1e16466ab61, type: 2}
+  pistol: {fileID: 11400000, guid: 7c65a1789378dfe45a5722972b78ab55, type: 2}
+  equipment:
+  - name: 'MEDIC PACK: 3 MEDKITS / 1 GRENADE'
+    medkits: 3
+    grenades: 1
+  - name: 'ASSAULT PACK: 1 MEDKIT / 3 GRENADES'
+    medkits: 1
+    grenades: 3

@@ -1,0 +1,164 @@
+[
+  {
+    "file": "Rocketbox/Military_Male_01.fbx",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Export/Military_Male_01.fbx",
+    "sha256": "B041E9A605A9BEAD434A9D1EC51FEC42E4118F1A991F373DE945D69C87DE0C59"
+  },
+  {
+    "file": "Rocketbox/sm002_body_color_acu.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_body_color_acu.tga",
+    "sha256": "40A1AFC4DFAC8BEBF1C61C36819A17FBE3BDA0A3132DA0B3A1ACA3792E79D32D"
+  },
+  {
+    "file": "Rocketbox/sm002_body_normal.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_body_normal.tga",
+    "sha256": "74ACA26D86B22AAD0C7CAA2264E61739F3EC134A86113746A2CD6B7312AC2862"
+  },
+  {
+    "file": "Rocketbox/sm002_body_specular.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_body_specular.tga",
+    "sha256": "D8F75BA85061DB0B8A8F59D165B5C90CB93445863A00E9A6083C8E7079178ED8"
+  },
+  {
+    "file": "Rocketbox/sm002_combat_knife_color.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_combat_knife_color.tga",
+    "sha256": "D5C5859086D45D11E499716722378675B2E8D9AF2171C891258E5DB1F9E5ABD6"
+  },
+  {
+    "file": "Rocketbox/sm002_combat_knife_normal.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_combat_knife_normal.tga",
+    "sha256": "8EC2E0CEC48E0BEF52DFD0107BDBBE2810ADA80A81035D7ED8C6CFBBE79BE64C"
+  },
+  {
+    "file": "Rocketbox/sm002_combat_knife_specular.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_combat_knife_specular.tga",
+    "sha256": "C58F6AA6FE16DB5B7AC2B2C7953626BF2684EC1D6C8EAFADBF788DF8C07CD39A"
+  },
+  {
+    "file": "Rocketbox/sm002_equipment_color_acu.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_equipment_color_acu.tga",
+    "sha256": "E90B760549EDA17B25B79CBFC2A831212A2791DD738BCEA08F3E8941F0B0CFE3"
+  },
+  {
+    "file": "Rocketbox/sm002_equipment_normal.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_equipment_normal.tga",
+    "sha256": "89B0EED4F6359E0710FB14AC1DF923BCE1E433436DBE4449A20D72F06B9B037E"
+  },
+  {
+    "file": "Rocketbox/sm002_equipment_specular.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_equipment_specular.tga",
+    "sha256": "9D4EFB3B7432365F51879C362AECA6D248634B659B7A513E3D63BF336B807FCE"
+  },
+  {
+    "file": "Rocketbox/sm002_head_color.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_head_color.tga",
+    "sha256": "B936215716E3CAEED3F6A1D2462BEF885022E11593659F4DDF531A138ED5DDCD"
+  },
+  {
+    "file": "Rocketbox/sm002_head_normal.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_head_normal.tga",
+    "sha256": "DF10A68A22B65681C75CD2CF127496A9F031380D098F652701BC2E0BC9BE7669"
+  },
+  {
+    "file": "Rocketbox/sm002_head_specular.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_head_specular.tga",
+    "sha256": "FF329D98691C93BE405AB319081C0292BE2F993D8FC61040B6FE90540992066B"
+  },
+  {
+    "file": "Rocketbox/sm002_helmet_color_acu.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_helmet_color_acu.tga",
+    "sha256": "A36CD586D57D01A6FEBFD3ADE796437A4507196595B93E65285D73A1D3EEB414"
+  },
+  {
+    "file": "Rocketbox/sm002_helmet_normal.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_helmet_normal.tga",
+    "sha256": "21CF5391C1C1C6278197D5D0F4610A3FC27E4F26972AADBE04F2DED9F42BF70D"
+  },
+  {
+    "file": "Rocketbox/sm002_helmet_specular.tga",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/Assets/Avatars/Professions/Military_Male_01/Textures/sm002_helmet_specular.tga",
+    "sha256": "716CC7BA1997C33B8C750149C73FF852C4202FA3C456BB218004EE9436F83D10"
+  },
+  {
+    "file": "Rocketbox/LICENSE.md",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/0943055db6ec570bcef9f2c8b41c9e5467c808f9/LICENSE.md",
+    "sha256": "17474E386E0B9E1A700CC3D06B2B0882A2C376D9C6B49C7F8274409B8F8D2352"
+  },
+  {
+    "file": "UnityMotion/m@StandingJump_Frame02.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Aerial/Jump/IdleJump/m%40StandingJump_Frame02.fbx",
+    "sha256": "7A551888778D4AE2A5DBEB27417A727233513D20B8A61C43FD4DA52E71BF1A1A"
+  },
+  {
+    "file": "UnityMotion/m@Falling.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Aerial/m%40Falling.fbx",
+    "sha256": "E631D5E55F5281B47969139F263EDEA197573DAA3B1A1C4EC5219BA8A777ED8E"
+  },
+  {
+    "file": "UnityMotion/m@Idle.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Exploration/m%40Idle.fbx",
+    "sha256": "D9962CB621FFA452D6DBA18C75F2840BED99787C39BF30A2998F91091F9218CD"
+  },
+  {
+    "file": "UnityMotion/m@RunForwards.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Exploration/m%40RunForwards.fbx",
+    "sha256": "7CA257499252B77CFDCAA822B4A30FB56834C063F9867694EAE1B7C3BDD6C316"
+  },
+  {
+    "file": "UnityMotion/m@SprintForwards.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Exploration/m%40SprintForwards.fbx",
+    "sha256": "95C6728B2B72AE3803730D722BFC4BC7B7B94B4A13A095306C2DE09550793A42"
+  },
+  {
+    "file": "UnityMotion/m@WalkForwards.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Exploration/m%40WalkForwards.fbx",
+    "sha256": "1E7F2EE55068DD5DD395503D8569EA4A0B7F442AB6AA5C4AC5D2824D709BDB49"
+  },
+  {
+    "file": "UnityMotion/m@StrafeIdle.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Strafe/m%40StrafeIdle.fbx",
+    "sha256": "EF5E46E63DF8657E42671F77C1CF5FDA347FABE6C2566E590127A2920FCA0993"
+  },
+  {
+    "file": "UnityMotion/m@StrafeRight.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Strafe/m%40StrafeRight.fbx",
+    "sha256": "DD79F60429107717C6DDB3845F2FF11C198D95A49E46F3928AC3D7FEE41B0456"
+  },
+  {
+    "file": "UnityMotion/m@StrafeWalkForwards.fbx",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/Assets/_Standard%20Assets/Characters/Animation/Male/Animations/Strafe/m%40StrafeWalkForwards.fbx",
+    "sha256": "BB9255A10CBC2DF9B493DFBD26E9A8E92BC225AAAC2EB775785D0E8D6699E5B5"
+  },
+  {
+    "file": "UnityMotion/LICENSE.md",
+    "license": "Unity-Companion",
+    "source": "https://raw.githubusercontent.com/Unity-Technologies/Standard-Assets-Characters/8f185aa3c782d824976653dd6a6476312daad241/LICENSE.md",
+    "sha256": "C68A3C49D6D1FD89C819F12F04BD276F8D14D28FF5568EA07F1A4E7BC56CB021"
+  }
+]

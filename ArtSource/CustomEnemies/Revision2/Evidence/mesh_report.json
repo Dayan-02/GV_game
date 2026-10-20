@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hunter",
+    "vertices": 29927,
+    "triangles": 59538,
+    "bones": 52,
+    "unweighted_vertices": 0
+  },
+  {
+    "name": "Runner",
+    "vertices": 16889,
+    "triangles": 33428,
+    "bones": 52,
+    "unweighted_vertices": 0
+  },
+  {
+    "name": "Ambusher",
+    "vertices": 18391,
+    "triangles": 36406,
+    "bones": 52,
+    "unweighted_vertices": 0
+  },
+  {
+    "name": "Elite",
+    "vertices": 22511,
+    "triangles": 44614,
+    "bones": 52,
+    "unweighted_vertices": 0
+  }
+]

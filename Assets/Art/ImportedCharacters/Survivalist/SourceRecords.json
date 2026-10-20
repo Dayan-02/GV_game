@@ -1,0 +1,591 @@
+{
+  "name": "Survivalist (P2)",
+  "author": "Slayver",
+  "acquired": "2026-10-14",
+  "source": "https://www.cgtrader.com/items/2645135/download-page",
+  "licenseLabel": "Royalty Free License (no AI)",
+  "archives": [
+    {
+      "file": "Basic+Demo+Animations.zip",
+      "sha256": "8CD5F8EBA27F9622646ABB16BC6F44911C1427FFB2C552AA12C85210BF8C5156",
+      "bytes": 615111
+    },
+    {
+      "file": "Military_Survivalist.unitypackage",
+      "sha256": "A085E6563E482400F3A4A2EBDDEB8DFCE12A982A9262AB820B7754B38087D96C",
+      "bytes": 213920542
+    },
+    {
+      "file": "SurvivalistArtOnly.unitypackage",
+      "sha256": "D49D6E299F0F21C6E9DC5B69B3B6A180A67A09F10323CD10457B8D0C34A75B37",
+      "bytes": 210785798
+    }
+  ],
+  "files": [
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/SK_Military_Survivalist.fbx",
+      "sha256": "CB7DBCF614E8C566505492218112EF89F643A6C2E62F44B2C533022BC86FAACC",
+      "bytes": 3045344
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Crouch_Walk.FBX",
+      "sha256": "788E40182CFC300D90A62CC2919B134F8ABC0AF3EAB389E43271924BE676B709",
+      "bytes": 690784
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Death.fbx",
+      "sha256": "34DE5BFFA74143D30DF9DA8E30D51132A497104C3AD2A5BBE4D15F09DCC4147B",
+      "bytes": 869328
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Idle.fbx",
+      "sha256": "316773DA468DD7AC986E119B9E4E696946A502A8A1050185D9F763E5791BB53B",
+      "bytes": 1049040
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Jump.FBX",
+      "sha256": "5E2CE1ED8F0A5D5472DA901898C245095B9A7FDA41D8FEC14711FE344B982C3A",
+      "bytes": 568096
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Run.FBX",
+      "sha256": "64E71E58E9625B441D1BF0CCD2CD37DBF849D84BEBE885B4E00B7EBFD32098DA",
+      "bytes": 612896
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Talk.FBX",
+      "sha256": "D8C0877C653A9681BBCA6C61AA8DDCDA63825D54E0CEB7757FFC816D2B1F60CB",
+      "bytes": 963376
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Motion/Walk.FBX",
+      "sha256": "DB01CD2AA762ED7B844DA09EBCEB772B9B236F5C4B4E3A675D16EEF8E4780E7E",
+      "bytes": 690768
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Basemesh/SK_Military_Survivalist.fbx",
+      "sha256": "1F78CE6B0A1A8938195487191DB0EE3F39F6375C3BCF3B3B8432845DF68DD1E8",
+      "bytes": 3044496
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Backpack1_Skin1.mat",
+      "sha256": "DF4DE92732DD1F33A60BBB812C39F99890C23550A380109AA5407A2F7DC2131D",
+      "bytes": 2546
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Backpack1_Skin2.mat",
+      "sha256": "FDB61B18A4ACC4939DEA98D09789F7F92BE3D0F14DEEBE5BE56E27F73F0ABB2E",
+      "bytes": 2546
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Backpack1_Skin3.mat",
+      "sha256": "F81643388873E3A3C157CEC09CC3B9726C6FC509EBA91BE5C19CB3CD8FDFC813",
+      "bytes": 2546
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Backpack1_Skin4.mat",
+      "sha256": "4BFEB693D64F6E451A07B024580C89D0ECBB767424E3594694DA08F25100C6A8",
+      "bytes": 2546
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Boots3_Skin1.mat",
+      "sha256": "729C47F03A228B96945BB40AE8C1283B7368EDFE9385A5279BFD61680E830CEF",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Boots3_Skin2.mat",
+      "sha256": "DF0544F76A0AC97ADE720BAFBF06D360791CE73469E4223B709FFCC34FADB2E5",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Boots3_Skin3.mat",
+      "sha256": "8446E68D96D2AC0D97998862614D755A50A706A5F1A7DB96C3E6F6D448A871E5",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Cap1_Skin1.mat",
+      "sha256": "6496318E150A026A826C4A014C6FB85E541D79E1925E26172083877DC8F71283",
+      "bytes": 2541
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Cap1_Skin2.mat",
+      "sha256": "BC7A5EFBE376861A46DBEB2B5E3554684E5FB3E60046A56918FD49731B5291BD",
+      "bytes": 2541
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Cap1_Skin3.mat",
+      "sha256": "385B96DCF72EF36D7295C69E86BF79556DC80794BEB3B48DD666BCD89B254C6D",
+      "bytes": 2541
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Cap1_Skin4.mat",
+      "sha256": "4C3F9D840248AA8A335D2A2591FCE787A1D6B0C8D7CF4EEFD359AF47F1EB234F",
+      "bytes": 2541
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Eyes1.mat",
+      "sha256": "4667356AFEADB08B4B0A60422110FFE951BC00E17B86CB5D6CC9852E973B8751",
+      "bytes": 2387
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/FPS_Hands1_Skin1.mat",
+      "sha256": "BD96CE47146EE3DAAD2F344BA7DE628EF4D610C52702BB4256B5B54E9F87DE95",
+      "bytes": 2525
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Gloves1_Skin1.mat",
+      "sha256": "EC2B724D7CC236CA845E8E003427A9AF73F3241C401D8BCA70D18BAE1C481624",
+      "bytes": 2467
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Gloves1_Skin2.mat",
+      "sha256": "DCFD330BF1A3E26C5465C314B2DAFDE19F05B580DE52AFB86D14B6AC3CD44337",
+      "bytes": 2467
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Hands1_Skin1.mat",
+      "sha256": "381775DBBE13CB9591FF625725F6C96E217B516A7059241B3879C59AD1167171",
+      "bytes": 2521
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Hands1_Skin2.mat",
+      "sha256": "868FE1D2F43214641A8BC270FA41150D1090B644AB749169294A3ADFAFE1E0B8",
+      "bytes": 2521
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Head1.mat",
+      "sha256": "5FCFF3234D28B4EBC77289A071C6B0819413B00AE3856835AB4F7F41ECC1C34A",
+      "bytes": 2514
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pants2_Skin1.mat",
+      "sha256": "41A492AABF3D8A6E6746720F2A4ACCE8D79F1610C1F134D3DAE8E6BDF59B7D1E",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pants2_Skin2.mat",
+      "sha256": "B8BFCC65FA7294B7C4BF52AD3C30440795E9A6A230F1382586E979D979FD7DAD",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pants2_Skin3.mat",
+      "sha256": "B8FE4932D134695CA952015AE097C15D4B7EBB76EFEF7AAE6A344ED59DF5B23A",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pouches1_Skin1.mat",
+      "sha256": "C8C37CE235D3047CBFF55A687DB0CC0FC561139B190E682BD2E91C92B28667C0",
+      "bytes": 2545
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pouches1_Skin2.mat",
+      "sha256": "DB302F2C0524103F3A2AEFA7E95D2AC875D61A82E80886E02B17AD59767D3985",
+      "bytes": 2545
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Pouches1_Skin3.mat",
+      "sha256": "F6905BCBDEDC31065651EDF5623A5B710901208C37CE4C5EDE8536763B3F1E8A",
+      "bytes": 2545
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Shirt3_Skin1.mat",
+      "sha256": "FA7929010CED8665EF65C9158E6E05FE0C364277BF589D2187D4B09D95217C8C",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Shirt3_Skin2.mat",
+      "sha256": "34EE60D3784FFFA7D3AF5509BEFB4975568BE8A3281BFD081C621183C4AB2FF8",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Shirt3_Skin3.mat",
+      "sha256": "DC90D459EBBAF5BBB661D7975AD9221EDC330180966F8B07917B720B36BF86CB",
+      "bytes": 2543
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Vest1_Skin1.mat",
+      "sha256": "FAB444FD038B781C5B8610F41F83CFDA917120A870CFDF91AD54CE82046B0E1B",
+      "bytes": 2542
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Vest1_Skin2.mat",
+      "sha256": "2447C1C26DAC0B60EC8A88B184B6E777E11D90EBFDFBC6D8A89B00342319CA2A",
+      "bytes": 2542
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Materials/Vest1_Skin3.mat",
+      "sha256": "B2739E3C38C199E6BFA2B1D3DCACBA2D89B087CC5940E8DC08E2738CDFE42F79",
+      "bytes": 2542
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Prefab/Survivalist (1).prefab",
+      "sha256": "16BBD8FDA2E2D488532760C35392BB9D12AA9C209BB5DE05D49A529C76086CFF",
+      "bytes": 124633
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Prefab/Survivalist (2).prefab",
+      "sha256": "DB7A112B961F038DE405BF240E2D922574F0F2721EE85333A37CD7BF455FFB84",
+      "bytes": 124633
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Prefab/Survivalist (3).prefab",
+      "sha256": "D49ADF4505C43717E4B817766400E02DC46AD99BE0D71DE0C7E537EDD3FFD66E",
+      "bytes": 124633
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Prefab/Survivalist (4).prefab",
+      "sha256": "270A0BCF00AE9B7C9DB085E8A0A49ED1060BF9BFD1C5DA8AF70E0BF64DC4A6D6",
+      "bytes": 124633
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Eyes1_albedo.png",
+      "sha256": "FFD39151322634C4E2C34A2C11B3BAE8B836AD9DEF56702C96D95A446A7B36D1",
+      "bytes": 766349
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Eyes1_normal.png",
+      "sha256": "245A6DDB50D98F54C61060EADB6487789C4E4AF3E61C61E4C043E7CABE806AFA",
+      "bytes": 488194
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Hands1_ao.png",
+      "sha256": "B281BE4FFDC8D4F92F851C013DDFFE3C413AACF49838A0FEC13501A0ABEA7961",
+      "bytes": 565655
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Hands1_color_skin1.png",
+      "sha256": "17D1BF5DC7EC1FBB8D5A36F40825C69619BF5C0A8B6506FC2B52D17C2548F716",
+      "bytes": 2763073
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Hands1_nmap.png",
+      "sha256": "D0C9143DF332BAC575624A00481EE824B7328ACF7A5A0CB11E614A66F5EA05A3",
+      "bytes": 3052807
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Hands1_rough.png",
+      "sha256": "D79714E4256AD3F7CD523213D02BE8AB74437B34FE4A1042B156955BC2E7CB6E",
+      "bytes": 1004157
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Head1_ao.png",
+      "sha256": "5137A3A07B7711B63307EFBEF41A2510860F90321743A960A48BA7EBADCE1554",
+      "bytes": 826301
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Head1_color.png",
+      "sha256": "8A3C532805DBD5D5943318539BEE7FC6092471FC98C3993EA1C63B973F6284AE",
+      "bytes": 5166638
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Head1_nmap.png",
+      "sha256": "0F32286A001D87F757453FF4E548FABC328223DA5150D0A44FAFEEEA9D5ABAEB",
+      "bytes": 5771996
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Body/T_Military_Head1_rough.png",
+      "sha256": "047FFA87DDFD18F5DC3D078E57F15A5DD532EC7A336B75B62C712DEBE0849678",
+      "bytes": 2861297
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_ao.png",
+      "sha256": "BEABDA2226E8F560C14D4A4A805AA42E7440D88FC75080B6EEB00163696BAD97",
+      "bytes": 387370
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_metalness.png",
+      "sha256": "E4FC0F3B8D4AE9D325C91BC5F54844B4F588F45110869A08271696271BD1CC95",
+      "bytes": 15992
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_nmap.png",
+      "sha256": "A497A7DFE2EF1B2A095B6D37E13B887E14D5750D5B7C373FD353EC7C2A5DABC1",
+      "bytes": 1578223
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_rough.png",
+      "sha256": "E09CEEC775DCC78BE446837E25225914151C1E309B29F2FFAA4BA39788F2B591",
+      "bytes": 737648
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_Skin1_color.png",
+      "sha256": "94B0C37871191A238E4EF22B046C87A0F6995B616C898E6B94809E55EE8C33DC",
+      "bytes": 981717
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_Skin2_color.png",
+      "sha256": "C78BD08BD9FF27C0FB7F74CE34EA0D336D0CD8ED73E4392BFA89106F451FBE4D",
+      "bytes": 851758
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Boots3_Skin3_color.png",
+      "sha256": "E645760594F74D352BD150294588439624CF70805CF55FCB1D4F6FF4E16D99B1",
+      "bytes": 1074753
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_ao.png",
+      "sha256": "AFDA273D17AAA19D59CE85C065D7B66C938AC30B0D9EC4DFE37D75D5F5834173",
+      "bytes": 2417300
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_color_skin1.png",
+      "sha256": "F90033DEAD6C856B4D7D92C68D9594C2BEF5821C8F6CBD8A667D13B838E39DAC",
+      "bytes": 8046771
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_color_skin2.png",
+      "sha256": "F9D5285C952CDAEB2C30C07397D8C46C8B2343D0BDF84EB4AB1FEF0425BFE584",
+      "bytes": 6484582
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_color_skin3.png",
+      "sha256": "8F9A6AE06505DF574284678441B14BB37B72C54E035A9D30FCCF24ABE57ACCE7",
+      "bytes": 7413579
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_metalness.png",
+      "sha256": "CDAF8482DC180B895745D1F8915AE3EB8E107C77E9283C9FB07C8A7A7495979F",
+      "bytes": 134281
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_nmap.png",
+      "sha256": "E94E787A181471F442D4E1AE2118FF8944D60251F4C6ED5B6E31DC7AF5263B68",
+      "bytes": 7877608
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Bottom/T_Military_Pants2_rough.png",
+      "sha256": "94409BE0E9F0B13581360B07DE0297DE7589CE0A13A623EEEE8E69EA17727837",
+      "bytes": 2049366
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_ao.png",
+      "sha256": "AAF083EA55B7D262E9E7CB57BD220349DCF8CCC0BE726E3AD1ABBABE38D9BAFF",
+      "bytes": 1128436
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_color_skin1.png",
+      "sha256": "0A1261489D21934BF9EC7678570E02208D25B3F727A2707AD7621234B61D4627",
+      "bytes": 3140530
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_color_skin2.png",
+      "sha256": "33EE53D83AEC67C834835F2A8134B31B117FD53CC2B7FC99BBA775BF6D00A911",
+      "bytes": 5370929
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_color_skin3.png",
+      "sha256": "66490987CA0C32940A6622678DA42674D698D5CFF37D67988CA94EADD2D0AB74",
+      "bytes": 5275283
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_color_skin4.png",
+      "sha256": "50517F2DD83F9221A6C2297C21E8AA733DEC636E2A097201C8472BAADD428D64",
+      "bytes": 6131725
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_metalness.png",
+      "sha256": "86A423B29DD3569328B43E53E732B02242051ACCD53B8C430E72B608BDD7528D",
+      "bytes": 110296
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_nmap.png",
+      "sha256": "A185D6134912C6D4DD8A30CB755C271AE2602E58A07F3B7D4D28034550392843",
+      "bytes": 7105911
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Backpack1_rough.png",
+      "sha256": "CA3252EF9D36C85C1C5AC5B6C3E229646A1428E432E2CA61E60FE10560E7AFFE",
+      "bytes": 1435907
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Gloves1_ao.png",
+      "sha256": "356E8E9EB0DD1AAA3DEA9090DC32BAC80E9B4A5DF37B41125550F71222D0B672",
+      "bytes": 408111
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Gloves1_color_skin1.png",
+      "sha256": "999327E48F47E21855A25FA696D4766925F493BEF4CC47E9CD00DBE25DD51A73",
+      "bytes": 1641957
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Gloves1_color_skin2.png",
+      "sha256": "E4453070650BDD4C4D4ED3B7F0D7DB5E5E591E08D6A823A004114FF67D042C01",
+      "bytes": 1635743
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Gloves1_nmap.png",
+      "sha256": "F98E2D2DED6F46E6EF04397A8F77FBB0BD892874F6D5ECC08F1672AA77B14FDF",
+      "bytes": 1116467
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Gloves1_rough.png",
+      "sha256": "609B414D604F2C412F75856EAFC35A97EBC03C1F5BB1493A47402474E470CFCD",
+      "bytes": 504320
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_ao.png",
+      "sha256": "103E0826853103E2CC8E0B4DBFC048F59F1867D92C17169EAA070FD336172EBD",
+      "bytes": 1913690
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_metalness.png",
+      "sha256": "1B54635859868322E154CC6DF33018CABD2776BF1530DE35478CCCD6B8871147",
+      "bytes": 292613
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_nmap.png",
+      "sha256": "6877D54CA11E81B939D8E9574A69E129AEF7CF2A1ACEF6677A87BDB8B052055C",
+      "bytes": 7354904
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_rough.png",
+      "sha256": "30B6230A96C68A0FC0405785FED37BCD400EACC0643D110977225FBDBB9FFD01",
+      "bytes": 406429
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_Skin1_color.png",
+      "sha256": "C5AA1B27A8330D95926CC1BA7C1993C329E28E93D3BB2E936ED5E0B3E1A72D72",
+      "bytes": 2959714
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_Skin2_color.png",
+      "sha256": "83EE935A25DB57FB4BE1350A8C5039338EFEAF1D03AFF88B28034978D058CF9B",
+      "bytes": 5375420
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Pouches1_Skin3_color.png",
+      "sha256": "EBB7BC287F1A30A63007963EAC673CFBC87225F0182B709F6C385A2DCA09680F",
+      "bytes": 6498141
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_ao.png",
+      "sha256": "6253E5573822E98910CFC79CAF3C93FE9734AAECD52E3AB7B86A86C8CCD39E25",
+      "bytes": 3096805
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_metalness.png",
+      "sha256": "B5F026E7495516F02CAC82CC368B4B30971709F738E559457DE8F8EC66505096",
+      "bytes": 21228
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_nmap.png",
+      "sha256": "3756913DCE2F2E9FA44143F31871CB02F2F0190D1FCE1F136C19ABDB810ED514",
+      "bytes": 8415580
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_rough.png",
+      "sha256": "89DB976039EDB126518DA94412DD1FD2A61E29FB9A512F8095B1466215FEC3F3",
+      "bytes": 321544
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_Skin1_color.png",
+      "sha256": "AB67694CE372F51D224C231AB50E098846EA1A108087CEF9E68DBFE7E96857C6",
+      "bytes": 2250806
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_Skin2_color.png",
+      "sha256": "0A6AA9F32291342956B2FEE0E538518369B7EFD344D648C889FF9189223FFFEA",
+      "bytes": 5395110
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Equip/T_Military_Vest1_Skin3_color.png",
+      "sha256": "2E97474795490A915294876D61BDD1A6533C638D22797B06A92393E8CD484265",
+      "bytes": 5770651
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/FPS_Arms/T_Military_Hands3_ao.png",
+      "sha256": "89CECB3D369858CD1DC6E0B4D402FD7EBA8D35CA1B8E3FF7E7A1A883864448B9",
+      "bytes": 1206539
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/FPS_Arms/T_Military_Hands3_color_skin1.png",
+      "sha256": "4F631B3252823E3EAECBC05678290AF24CB4164CBAAEFA2BF68E0354FB3C676B",
+      "bytes": 3332584
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/FPS_Arms/T_Military_Hands3_nmap.png",
+      "sha256": "B6E3C883194CDBE39E66A7F38D7147CD5553A29D8A93023BAC49459A6319D5F8",
+      "bytes": 4246922
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/FPS_Arms/T_Military_Hands3_rough.png",
+      "sha256": "3F8778105647D0601DDAD424D44E9A6F77024722D8C840C1A1B6256622B89965",
+      "bytes": 1520015
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_ao.png",
+      "sha256": "E70AB6AC4D37656A5B71D66FEEC1EC1CB79061D349A1FFFF984A95C5A402DF42",
+      "bytes": 2610165
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_metalness.png",
+      "sha256": "B5F026E7495516F02CAC82CC368B4B30971709F738E559457DE8F8EC66505096",
+      "bytes": 21228
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_nmap.png",
+      "sha256": "BE1B81292A1AE004FFE0D206D46320BC69EE49C58728FC5D3354EC7CCF618965",
+      "bytes": 8589486
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_rough.png",
+      "sha256": "7603930A10CBE679616EFBDA06391B562523605B672F27318B4090988C34108F",
+      "bytes": 165296
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_Skin1_color.png",
+      "sha256": "61E40CA765B906E794389254E88A14D6E26C2BB09FBC7B78DB8C6BC7B923481C",
+      "bytes": 3328788
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_Skin2_color.png",
+      "sha256": "521EEE31CBBA1E4A25DD97F683B8E3735E619036A13870E2D27DA570F4CEA0C6",
+      "bytes": 4598809
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_Skin3_color.png",
+      "sha256": "CF83BEF993DC3103333492838D12B8B58F873666DD63507469B9B1A28BE7368E",
+      "bytes": 4818197
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Caps1_skin4_color.png",
+      "sha256": "E12F4EA1A09732960FF8705D098E546961FB2E65A2DA4E9A00BD1F51B71079FD",
+      "bytes": 4604653
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_ao.png",
+      "sha256": "BC439505C54DE15A36E7EFEB54099177ABB4B04B4F0987275B403006ABCE52AD",
+      "bytes": 1388293
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_metalness.png",
+      "sha256": "E3655083FE7B1C1D19A08B9C53911D143CE30DDA196BE92EDC52BC4BBB1C8892",
+      "bytes": 53182
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_nmap.png",
+      "sha256": "7EC996307362FE1535EE09104711B259FE00BC9FC5FFD86EC3414A7F4858F236",
+      "bytes": 6103815
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_rough.png",
+      "sha256": "8C62BE8FF72D338AAFE7112F65B204CA82FFF9108919B4CF3444DB6047827708",
+      "bytes": 65824
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_Skin1_color.png",
+      "sha256": "6526B692E300BDA1DCE1593B2C3F237E68CAABA4A89725EEB65D3CC8B2CA2006",
+      "bytes": 4371609
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_Skin2_color.png",
+      "sha256": "EDAF4F67228F23ADE28AF16EBC12A738BF850A8557FF3B0F99394581B8AA8C79",
+      "bytes": 3999353
+    },
+    {
+      "path": "Assets/Art/ImportedCharacters/Survivalist/Vendor/Texture/Top/T_Military_Shirt3_Skin3_color.png",
+      "sha256": "2012DAF31FE0BAA222DC751D3051377EFB5335ED58FA381F2CE15FE239562B33",
+      "bytes": 4171286
+    }
+  ]
+}

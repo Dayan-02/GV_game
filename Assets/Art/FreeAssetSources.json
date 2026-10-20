@@ -1,0 +1,255 @@
+{
+  "imported": "2026-10-12",
+  "zombieArchiveSha256": "062733D16D1AC3146FD82DE55FFADB71AB09FCAD119C2F8002EDAE50B9D2A880",
+  "weaponArchiveSha256": "275679F1F8C7D22AA413C04012571A92E6C7B266ED7174125B64B9D8533F7A1A",
+  "files": [
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/dead.FBX",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "BDD27D11C1C0E9B5FE799C4F13E86EFC216F29C5ED6DDE38B838814865888D9A"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/difusse.jpg",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "1F95F5F06EC5C2B7BF0C8225217C59B0B5900D690B6ED8144EF54A1CEBAB78FF"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/especular.jpg",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "344EF88B19A0C2178CC0BB42AD27E360B0C893C2BF341611AC43B52D3FCF350B"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/fury.FBX",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "AA105D2165E3586AC995E48BCEDA9159A7F092B8C0A18352CEAE0E2596BE5076"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/normal.JPG",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "0A26FE64BC1295909FDF3CA1932DEFD011742A31EB0C1FDD72FF7C3F372986DD"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/read first.txt",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "68DCBCBFEBCC7A465C7EB545A46E321642EB629E5BC9627122C75A8E8DC36DD3"
+    },
+    {
+      "file": "Assets/Art/ImportedCharacters/PixelhouseZombie/walk.FBX",
+      "author": "Pixelhouse",
+      "license": "CC-BY-3.0",
+      "source": "https://opengameart.org/content/zombie",
+      "archive": "https://opengameart.org/sites/default/files/zombie.zip",
+      "sha256": "B5A2F11C36432EC88A8AEBF5E33CD79FE470D42E5F7CA98D6801BDEC3A2C4BD9"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1_Base_Color.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "E28FB02A6A1D951EC2D356FAD8F267BA04DA7D294BFA001EB3995549971E1B34"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1_Height.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "DF12E21E2C5A8553BB7B5E9BEE80477A123F3C5CDA5CF55D50D739F69A51B904"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1_Metallic.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "E9CC71FF7886C552030586C650E67C78A86C8B2A812357E40EDC19D5BC9426CA"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1_Normal.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "9DA0B6DA232CC676482EEB2B21FDFE04F03504A0E37407F3BBC35556335BD998"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1_Roughness.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "708EFF9DF647F0ECF258467E983052E164286D1DC579E763A6D8261074D3EB9A"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/M4A1/M4A1.fbx",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "D66516A3455B975027556394B9AFB92A1E9093D700CCF779AAB223CD6AC4076E"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun_Base_Color.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "F4CAF3BB029EB0F453984613CA609A7EEE5F0C2C9188431B55885E5DABC08DCF"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun_Height.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "42412F0210D6DE6E9305AF05ED83E357EDD14C4F6B0135A70DA70472439742CE"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun_Metallic.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "2BD68E1AA5EA79AFC4A570B088298738B89CA2586EB329EC95618CDA6B0AE7F7"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun_Normal_DirectX.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "2A6F4FE336A9C151F12354A298FB2BF3129FCD1C972EE6FFFD96F6F4129A02C5"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun_Roughness.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "CDEED4BB3EE39680530069325B3815A024E89BDA693DAB2B369D1A66488D1344"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/GreaseGun/Grease_Gun.fbx",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "68C31EBBF1967B59D12F0EF10D5C1750522A4A7C152B8529F0C326971A0822BD"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun_Base_Color.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "16697299215A5BD2D7DB97829C41F5288902BE1826116A1C0A2D140474801101"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun_Height.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "8AEEA58F27EB9AC0D97D4C5DC1AAAABFF4CB3321EBE3CEED2E75AC7CBA7A4638"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun_Metallic.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "E1B6AFE27FE6D2AD8F9BBFC12B1E22F1DFDD0951A6BF34264496E1B98FE3CBA3"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun_Normal_DirectX.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "ECA6B17FB887CBAF02D9A53BA2C5281BF9875773A45F6A333019A6DF013087A2"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun_Roughness.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "A6238046AB06D123F723E50229A292C3B1D951D9221AD07DE73717C74E71442C"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Shotgun/Shotgun.fbx",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "2184F1477025779F05BF4A20C72107518AA5AE8CA69B96DCD6E83D060C570932"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov_Base_Color.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "72D3CAF155E5B26F58692551CCEDBDCAB2A40B5E78C1848F0A772916D6F13D44"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov_Height.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "9CA7CAD19369C760FDBE63E2D4FE5682EA6BBD96B141D2EC01C97D80705D777E"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov_Metallic.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "7D066C9627FC402C9A93E25EA439343D79CD216F76F5654CB757F4B655C28E2C"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov_Normal.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "D5D4376ABE5CF66067AA492387E0CB5BEF32217BE44657DE7D755F756FF00190"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov_Roughness.png",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "2CBC0756C03FF015422B168C1EEA08BF349982FC3420CB65D8A2576C014FCD5A"
+    },
+    {
+      "file": "Assets/Art/ImportedWeapons/CC0/Pistol_MK/Makarov.fbx",
+      "author": "3dmodelscc0 / nisu",
+      "license": "CC0-1.0",
+      "source": "https://3dmodelscc0.itch.io/free-cc0-guns-explosives-pack",
+      "archive": "https://github.com/BoQsc/cc0-guns-explosives-pack-glb/releases/download/0/Guns.Explosives.rar",
+      "sha256": "5BA448B9091B426405A25C0E0C6742EF4309CF79C334845CB3E3552B7BE70B9C"
+    }
+  ]
+}

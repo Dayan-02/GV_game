@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Hunter",
+    "vertices": 15393,
+    "triangles": 30346,
+    "bones": 52,
+    "unweighted_vertices": 0,
+    "uv_layers": 1,
+    "materials": 11,
+    "rig_status": "Unmapped humanoid prototype; deformation review pending"
+  },
+  {
+    "name": "Runner",
+    "vertices": 14281,
+    "triangles": 28154,
+    "bones": 52,
+    "unweighted_vertices": 0,
+    "uv_layers": 1,
+    "materials": 10,
+    "rig_status": "Unmapped humanoid prototype; deformation review pending"
+  },
+  {
+    "name": "Ambusher",
+    "vertices": 14427,
+    "triangles": 28410,
+    "bones": 52,
+    "unweighted_vertices": 0,
+    "uv_layers": 1,
+    "materials": 10,
+    "rig_status": "Unmapped humanoid prototype; deformation review pending"
+  },
+  {
+    "name": "Elite",
+    "vertices": 15879,
+    "triangles": 31282,
+    "bones": 52,
+    "unweighted_vertices": 0,
+    "uv_layers": 1,
+    "materials": 9,
+    "rig_status": "Unmapped humanoid prototype; deformation review pending"
+  }
+]

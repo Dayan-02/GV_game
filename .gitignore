@@ -1,0 +1,41 @@
+# Unity-generated project data
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Local licensed-source archives, review projects and pre-change backups
+/Previews/
+/Backups/
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+Thumbs.db
+.DS_Store
+
+# Crash reports and local editor state
+sysinfo.txt
+*.stackdump
+
+# Reproducible opening-video intermediates and local encoder dependency
+/ArtSource/OpeningVideo/Frames/
+/tmp/video-tools/

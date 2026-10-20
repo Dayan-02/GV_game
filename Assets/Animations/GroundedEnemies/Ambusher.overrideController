@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ambusher
+  m_Controller: {fileID: 9100000, guid: 60c27cc449a22b64e8e488a66559c7a0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: bb39711bfc73c2c4eaf840dc6cb87ec7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cd10ed0b299281346aa316e181daed41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: db57bce9693c3ea40aabf5710386b119, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cd10ed0b299281346aa316e181daed41, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cbd7eeb86d709f54fb926f67dd7a41c7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 713c3d5bb3bcf374bbdf7a8ac68b75d1, type: 2}

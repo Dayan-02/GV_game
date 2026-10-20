@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Survivalist
+  m_Controller: {fileID: 9100000, guid: 579d17c95088ffb49b66bacfac5d3efc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a2c9670137f18ed40a6a61c18bf1ed7c, type: 2}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 9544645e871e80f4ab5adc087f35cf8c, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 52a5daed00cf76b4e9f0183c5fc6246f, type: 2}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: e99278207ddac1d47a81f43c44552b13, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: fdfeeaeadcce24643a01149e8cb4964f, type: 2}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 0a1f8f3bc5a52db4eb1820732b08e9bc, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 36daab744352aa44585c3cd5915e2c60, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fa530c5d1ff200a42bc5618a38ce77f2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8da59773af32b934d9725bb24e69b6a8, type: 2}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 9544645e871e80f4ab5adc087f35cf8c, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 6943d7006a918f34a99674aa2957ddb1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 922265151059e494380b3d1b713fb57d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 91a37cbf9fe7dec40ae3154735bb24c5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 761cc31b2a9d21044a1c51dc85a6d7e8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4d6a79bbb927f0c46af60c39d2477bd0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 90eb2982fb7449446962cc8c15a570c8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a418d7db3ccd76c439b6aed93ac26a7c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 07eeed80328c21c4c8c123373f1d7922, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a0d866bcd2528d24d879481f480d2b0d, type: 2}
+    m_OverrideClip: {fileID: 8993902097722301239, guid: 49760f4a108ca4a40a38ba4b47756d10, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 82f1de89086c30a4795e42daa2e55dd1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0580db9cba48bbd468c878c53f507b8d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1339637bfb136964b812593c15e70958, type: 2}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: d1540a71d554aab4185d74e5159d2760, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 5a0111b816542c04b8433fa22421ddeb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dc4f1a2e659c92b428c63c21f3eaf293, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 170e66ed449330542a833bd1122bbfb3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8eb7d41fd859de8488c39bda19b1462b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 846d131b1cbacf04299246e5b551daba, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 846d131b1cbacf04299246e5b551daba, type: 2}

@@ -1,0 +1,281 @@
+[
+  {
+    "character": "Hunter",
+    "actions": [
+      {
+        "name": "Hunter_Idle",
+        "frames": 91,
+        "fps": 30,
+        "loop": true,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_Walk",
+        "frames": 29,
+        "fps": 30,
+        "loop": true,
+        "speed": 1.15
+      },
+      {
+        "name": "Hunter_Chase",
+        "frames": 22,
+        "fps": 30,
+        "loop": true,
+        "speed": 3.4
+      },
+      {
+        "name": "Hunter_TurnLeft",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_TurnRight",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_Attack",
+        "frames": 39,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_Hit",
+        "frames": 21,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_Stagger",
+        "frames": 35,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Hunter_Death",
+        "frames": 58,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      }
+    ]
+  },
+  {
+    "character": "Runner",
+    "actions": [
+      {
+        "name": "Runner_Idle",
+        "frames": 91,
+        "fps": 30,
+        "loop": true,
+        "speed": 0
+      },
+      {
+        "name": "Runner_Walk",
+        "frames": 27,
+        "fps": 30,
+        "loop": true,
+        "speed": 1.45
+      },
+      {
+        "name": "Runner_Chase",
+        "frames": 18,
+        "fps": 30,
+        "loop": true,
+        "speed": 4.8
+      },
+      {
+        "name": "Runner_TurnLeft",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Runner_TurnRight",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Runner_Attack",
+        "frames": 29,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Runner_Hit",
+        "frames": 21,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Runner_Stagger",
+        "frames": 35,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Runner_Death",
+        "frames": 58,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      }
+    ]
+  },
+  {
+    "character": "Ambusher",
+    "actions": [
+      {
+        "name": "Ambusher_Idle",
+        "frames": 91,
+        "fps": 30,
+        "loop": true,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_Walk",
+        "frames": 34,
+        "fps": 30,
+        "loop": true,
+        "speed": 0.95
+      },
+      {
+        "name": "Ambusher_Chase",
+        "frames": 21,
+        "fps": 30,
+        "loop": true,
+        "speed": 3.8
+      },
+      {
+        "name": "Ambusher_TurnLeft",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_TurnRight",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_Attack",
+        "frames": 39,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_Hit",
+        "frames": 21,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_Stagger",
+        "frames": 35,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Ambusher_Death",
+        "frames": 58,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      }
+    ]
+  },
+  {
+    "character": "Elite",
+    "actions": [
+      {
+        "name": "Elite_Idle",
+        "frames": 91,
+        "fps": 30,
+        "loop": true,
+        "speed": 0
+      },
+      {
+        "name": "Elite_Walk",
+        "frames": 34,
+        "fps": 30,
+        "loop": true,
+        "speed": 1.1235000550746919
+      },
+      {
+        "name": "Elite_Chase",
+        "frames": 24,
+        "fps": 30,
+        "loop": true,
+        "speed": 3.638000178337097
+      },
+      {
+        "name": "Elite_TurnLeft",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_TurnRight",
+        "frames": 37,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_Attack",
+        "frames": 39,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_Hit",
+        "frames": 21,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_Stagger",
+        "frames": 35,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_Death",
+        "frames": 58,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      },
+      {
+        "name": "Elite_HeavyAttack",
+        "frames": 55,
+        "fps": 30,
+        "loop": false,
+        "speed": 0
+      }
+    ]
+  }
+]
