@@ -19,7 +19,7 @@ public static class Phase18Setup
         BuildWindows();
     }
 
-    [MenuItem("Zombie Outbreak/Phase 18 - Assessment display and validation")]
+    [MenuItem("Dead city/Phase 18 - Assessment display and validation")]
     public static void Build()
     {
         OutbreakEditor.Open();
@@ -114,7 +114,7 @@ public static class Phase18Setup
         OutbreakEditor.Require(failures == 0, "All benchmark paths must be complete");
     }
 
-    [MenuItem("Zombie Outbreak/Build Windows Player")]
+    [MenuItem("Dead city/Build Windows Player")]
     public static void BuildWindows()
     {
         // Preserve the latest authored city when rebuilding from the normal menu.
@@ -126,11 +126,11 @@ public static class Phase18Setup
         OutbreakEditor.Open();
         Validate();
         Directory.CreateDirectory("Builds/Windows");
-        var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes = EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).ToArray(), locationPathName = "Builds/Windows/ZombieOutbreak.exe", target = BuildTarget.StandaloneWindows64, options = BuildOptions.None });
+        var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions { scenes = EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).ToArray(), locationPathName = "Builds/Windows/DeadCity.exe", target = BuildTarget.StandaloneWindows64, options = BuildOptions.None });
         Directory.CreateDirectory("Logs");
         File.WriteAllText("Logs/WindowsBuildSummary.txt", report.summary.result + "\nErrors: " + report.summary.totalErrors + "\nWarnings: " + report.summary.totalWarnings + "\nSize: " + report.summary.totalSize + "\nTime: " + report.summary.totalTime);
         if (report.summary.result != BuildResult.Succeeded)
             throw new Exception("Windows build failed: " + report.summary.result);
-        UnityEngine.Debug.Log("WINDOWS_BUILD_PASS: Builds/Windows/ZombieOutbreak.exe");
+        UnityEngine.Debug.Log("WINDOWS_BUILD_PASS: Builds/Windows/DeadCity.exe");
     }
 }

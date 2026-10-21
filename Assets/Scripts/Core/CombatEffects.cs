@@ -19,7 +19,6 @@ public sealed class CombatEffects : MonoBehaviour
     private ParticleSystem[] impacts, hits, deaths;
     private int impactIndex, hitIndex, deathIndex;
     private readonly Dictionary<EnemyHealth, EnemyActor> tracked = new Dictionary<EnemyHealth, EnemyActor>();
-    private readonly Dictionary<EnemyHealth, System.Action<float>> hitListeners = new Dictionary<EnemyHealth, System.Action<float>>();
     private void Awake()
     {
         impacts = MakePool(impactPrefab);
@@ -42,34 +41,39 @@ public sealed class CombatEffects : MonoBehaviour
 
     private void OnEnable()
     {
-        weapons.HitDetected += OnImpact;
-        waves.EnemySpawned += Track;
+        if (weapons != null) weapons.HitDetected += OnImpact;
+        if (waves != null) waves.EnemySpawned += Track;
     }
 
     private void OnDisable()
     {
-        weapons.HitDetected -= OnImpact;
-        waves.EnemySpawned -= Track;
+        if (weapons != null) weapons.HitDetected -= OnImpact;
+        if (waves != null) waves.EnemySpawned -= Track;
         foreach (var pair in tracked)
             if (pair.Key != null)
             {
                 pair.Key.Died -= OnDeath;
-                pair.Key.Hit -= hitListeners[pair.Key];
             }
 
         tracked.Clear();
-        hitListeners.Clear();
     }
 
-    private void OnImpact(RaycastHit hit, float damage) => Play(impacts, ref impactIndex, hit.point + hit.normal * .03f);
+    private void OnImpact(RaycastHit hit, float damage)
+    {
+        if (hit.collider == null) return;
+        Quaternion rotation = Quaternion.LookRotation(hit.normal.sqrMagnitude > .001f ? hit.normal : Vector3.up);
+        Vector3 position = hit.point + hit.normal * .015f;
+        // One response at the bullet contact: flesh never also emits wall sparks.
+        if (hit.collider.GetComponentInParent<EnemyHealth>() != null)
+            Play(hits, ref hitIndex, position, rotation);
+        else
+            Play(impacts, ref impactIndex, position, rotation);
+    }
     private void Track(EnemyActor actor)
     {
-        if (tracked.ContainsKey(actor.Health))
+        if (actor == null || actor.Health == null || tracked.ContainsKey(actor.Health))
             return;
         tracked[actor.Health] = actor;
-        System.Action<float> listener = _ => Play(hits, ref hitIndex, actor.transform.position + Vector3.up);
-        hitListeners[actor.Health] = listener;
-        actor.Health.Hit += listener;
         actor.Health.Died += OnDeath;
     }
 
@@ -77,21 +81,19 @@ public sealed class CombatEffects : MonoBehaviour
     {
         if (!tracked.TryGetValue(health, out var actor))
             return;
-        Play(deaths, ref deathIndex, actor.transform.position + Vector3.up * .7f);
-        health.Hit -= hitListeners[health];
+        Play(deaths, ref deathIndex, actor.transform.position + Vector3.up * .12f, Quaternion.LookRotation(Vector3.up));
         health.Died -= OnDeath;
-        hitListeners.Remove(health);
         tracked.Remove(health);
     }
 
-    private static void Play(ParticleSystem[] pool, ref int index, Vector3 position)
+    private static void Play(ParticleSystem[] pool, ref int index, Vector3 position, Quaternion rotation)
     {
         if (pool == null || pool.Length == 0 || pool[index] == null)
             return;
         var effect = pool[index];
         index = (index + 1) % pool.Length;
         effect.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-        effect.transform.position = position;
+        effect.transform.SetPositionAndRotation(position, rotation);
         effect.Play(true);
     }
 }

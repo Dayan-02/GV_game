@@ -6,7 +6,7 @@ using UnityEngine;
 
 public static class Phase17Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 17 - Final integration fixes")]
+    [MenuItem("Dead city/Phase 17 - Final integration fixes")]
     public static void Build()
     {
         OutbreakEditor.Open();

@@ -1,0 +1,23 @@
+{
+  "character": "Runner",
+  "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Runner_Animated.blend",
+  "source_sha256": "d993f35c1c7b9cd276d0dc630b3f50a80d4b4e7f1bc87c69d5bfb1168071041b",
+  "vertices": 24929,
+  "triangles": 46926,
+  "bones": 52,
+  "rest_pose_matches_source": true,
+  "unweighted_vertices": 0,
+  "actions": [
+    "Runner_Walk",
+    "Runner_TurnRight",
+    "Runner_TurnLeft",
+    "Runner_Stagger",
+    "Runner_Idle",
+    "Runner_Hit",
+    "Runner_Death",
+    "Runner_Chase",
+    "Runner_Attack"
+  ],
+  "packed_images": 1,
+  "output_sha256": "8e296f7b6ddfc347399341139c700cbe333ebfe46f1f2621093bda3b490571c8"
+}

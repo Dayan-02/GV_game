@@ -27,7 +27,7 @@ public static class InfectedMotionPreview
         public Mesh[] Baked;
     }
 
-    [MenuItem("Zombie Outbreak/Art/Capture infected motion preview")]
+    [MenuItem("Dead city/Art/Capture infected motion preview")]
     public static void Capture()
     {
         if (EditorApplication.isPlaying)

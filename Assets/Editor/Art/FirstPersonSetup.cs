@@ -14,7 +14,7 @@ public static class FirstPersonSetup
     public const string PlayerPath = "Assets/Prefabs/Player/PlayerFirstPerson.prefab";
     private const int ViewLayer = 30;
 
-    [MenuItem("Zombie Outbreak/First Person/Apply to Enhanced City")]
+    [MenuItem("Dead city/First Person/Apply to Enhanced City")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode before authoring first person.");

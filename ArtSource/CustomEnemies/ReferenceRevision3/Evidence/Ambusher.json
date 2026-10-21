@@ -1,0 +1,23 @@
+{
+  "character": "Ambusher",
+  "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Ambusher_Animated.blend",
+  "source_sha256": "93f6f8bc0e78e33807ce5e51183cd0b8c9823f2314657d5957df0c0cbfa34c0e",
+  "vertices": 29571,
+  "triangles": 58462,
+  "bones": 52,
+  "rest_pose_matches_source": true,
+  "unweighted_vertices": 0,
+  "actions": [
+    "Ambusher_Walk",
+    "Ambusher_TurnRight",
+    "Ambusher_TurnLeft",
+    "Ambusher_Stagger",
+    "Ambusher_Idle",
+    "Ambusher_Hit",
+    "Ambusher_Death",
+    "Ambusher_Chase",
+    "Ambusher_Attack"
+  ],
+  "packed_images": 1,
+  "output_sha256": "d5456095bca3214878bee6d81fdbe0d49acc8dcf781bb0f72ed16bd3afb66017"
+}

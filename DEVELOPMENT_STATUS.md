@@ -1,4 +1,4 @@
-# Zombie Outbreak — implementation record
+# Dead city — implementation record
 
 Unity 6000.5.3f1. Continuing the existing Phases 1–4; Phase 18 integration workflow updated 10 October 2026.
 This record distinguishes implemented systems, native Unity checks and remaining human assessment work.
@@ -51,7 +51,7 @@ Updated package bootstrap to install `com.unity.ai.navigation@2.0.15` through Un
 
 The map builder preserves the old environment as an inactive archive. The new 76 m district has an open combat street, cross street, warehouse, office, maintenance interior, alley, defensive positions, movable-prop placeholders and an elite arena marker. Four entrances per interior provide alternate routes. AI consumes transform markers.
 
-Editor setup: run **Zombie Outbreak > Phase 5 - Build district** once on the existing project. Subsequent calls retain the authored district and rebuild its NavMesh. Layer 8 is World, layer 9 is Enemies. The navigation surface collects World colliders under OutbreakDistrict. Keep player and enemy colliders out of the bake.
+Editor setup: run **Dead city > Phase 5 - Build district** once on the existing project. Subsequent calls retain the authored district and rebuild its NavMesh. Layer 8 is World, layer 9 is Enemies. The navigation surface collects World colliders under OutbreakDistrict. Keep player and enemy colliders out of the bake.
 
 Check: every marker must sample to the mesh and have a complete path to PlayerSpawn. In Play Mode traverse both streets and all three interiors, jump against boundaries, and inspect cover height relative to the humanoid.
 
@@ -65,7 +65,7 @@ Created `InteractiveDoor`, `DestructibleBarricade` under Environment, `PlayerInt
 
 Use E within 3.2 m to open/close a door; locked doors expose a locked prompt. The hinge rotates at 140 degrees/s through 100 degrees. Crates weigh 35 kg, barrels 55 kg and barricades 70 kg; Rigidbody interpolation, continuous collision and damping stabilize movement. NavMeshModifier excludes moving objects from the permanent bake; NavMeshObstacle provides dynamic carving. Barricades have 100 health and visibly topple before removal. Door API allows future enemies to open unlocked doors.
 
-Setup: **Zombie Outbreak > Phase 6 - Add interactions**. Do not combine a dynamic Rigidbody and NavMeshAgent on an enemy. For a new door place the root at its hinge, put the solid leaf underneath, and put the obstacle on the leaf. Configure lock, angle and speed on InteractiveDoor.
+Setup: **Dead city > Phase 6 - Add interactions**. Do not combine a dynamic Rigidbody and NavMeshAgent on an enemy. For a new door place the root at its hinge, put the solid leaf underneath, and put the obstacle on the leaf. Configure lock, angle and speed on InteractiveDoor.
 
 Test: E opens/closes; a locked door stays closed; push props from the side; shoot a barricade until it collapses; walk through the cleared opening. Inspect the blue NavMesh with dynamic carving in Play Mode.
 
@@ -79,7 +79,7 @@ Created `Assets/Scripts/AI/Shared/Enemy{Health,World,Actor,Movement,Perception,C
 
 Health implements IDamageable and emits hit/death events once. Movement wraps a NavMeshAgent, throttles destinations, probes complete paths and opens nearby unlocked doors. Perception samples every 0.2 s: distance, line of sight, recent noise, weapon type and player weakness. Combat uses a windup, one idempotent impact gate and cooldown, checking range/occlusion again at impact. Death cancels combat/navigation, clears colliders and removes the actor from the registry. Animation listens to these events.
 
-Setup: **Zombie Outbreak > Phase 7 - Shared enemies**. Spawned actors must receive `Initialize(EnemyWorld)`; the later WaveManager supplies it. Base settings: health 60, radius 0.4 m, height 1.9 m, attack range 1.8 m, damage 10, windup 0.5 s, cooldown 1.6 s. No Rigidbody on agents. Enemy World obstruction mask is World only.
+Setup: **Dead city > Phase 7 - Shared enemies**. Spawned actors must receive `Initialize(EnemyWorld)`; the later WaveManager supplies it. Base settings: health 60, radius 0.4 m, height 1.9 m, attack range 1.8 m, damage 10, windup 0.5 s, cooldown 1.6 s. No Rigidbody on agents. Enemy World obstruction mask is World only.
 
 Test: instantiate on the baked NavMesh and initialize; damage twice past zero and observe one death callback; attack a player in range, leave during windup, and confirm no remote hit. Killing the player must stop all registered movement and attacks.
 
@@ -93,7 +93,7 @@ Created `AI/Hunter/HunterNavigationGraph.cs`, `HunterBrain.cs`, Editor/Outbreak 
 
 Actual A*: each edge cost g is distance travelled, h is Euclidean distance to the goal, and the lowest f=g+h open node is expanded. The 2 m grid is sampled once from the baked NavMesh; edges are checked against current carving. A per-search expansion ceiling and 1.5 s replan interval bound work. A failed complete route stops the Hunter and retries later. NavMeshAgent handles local avoidance between chosen waypoints; it does not replace the A* decision algorithm.
 
-Setup: **Zombie Outbreak > Phase 8 - Hunter A-star**. Graph bounds are Inspector data, not destination coordinates embedded in the brain. Hunter speed 2.25 m/s, health 60. Select an active Hunter and enable Draw Path for yellow waypoint lines; ExpandedNodes, PathCost and actor Decision support explanation.
+Setup: **Dead city > Phase 8 - Hunter A-star**. Graph bounds are Inspector data, not destination coordinates embedded in the brain. Hunter speed 2.25 m/s, health 60. Select an active Hunter and enable Draw Path for yellow waypoint lines; ExpandedNodes, PathCost and actor Decision support explanation.
 
 Test: all six entrance-to-player routes are checked by the builder. In Play Mode lead a Hunter around a warehouse, close/move an obstacle and inspect replanning. An unreachable target must not cause rapid destination retries or console errors.
 
@@ -105,7 +105,7 @@ Suggested commit: `feat(ai-hunter): implement explicit A-star hunter navigation`
 
 Created `AI/Runner/RunnerBrain.cs`, `Editor/Outbreak/Phase9Setup.cs` and `Runner.prefab`. Shared systems remain unchanged. Normalized distance, own health, player weakness, shotgun threat, firing activity, visibility and path availability produce Chase / Attack / Caution / Flank / Disengage scores. Inspector weights adjust aggression, survival and tactics; hysteresis reduces oscillation.
 
-Setup: **Zombie Outbreak > Phase 9 - Runner utility AI**. Health 45, chase 4.8 m/s, caution 2.5 m/s, decision interval 0.4 s. A close shotgun raises caution/flank scores; an injured player raises chase utility. Repositioning candidates are checked for complete paths.
+Setup: **Dead city > Phase 9 - Runner utility AI**. Health 45, chase 4.8 m/s, caution 2.5 m/s, decision interval 0.4 s. A close shotgun raises caution/flank scores; an injured player raises chase utility. Repositioning candidates are checked for complete paths.
 
 Test: compare score snapshots with rifle and shotgun, then lower player health; damage the Runner to raise survival utility. The builder checks the shotgun/health relationships directly. Watch a Runner approach, circle or disengage instead of following the Hunter route at a different speed.
 
@@ -117,7 +117,7 @@ Suggested commit: `feat(ai-runner): add utility-based runner decisions`
 
 Created `AI/Ambusher/AmbusherBrain.cs`, `Editor/Outbreak/Phase10Setup.cs` and `Ambusher.prefab`. The agent observes, evaluates, travels, waits, strikes and repositions. Each authored point is scored for flank angle, concealment, travel distance, preferred player distance and predicted player travel; unreachable or occupied points are rejected. EnemyWorld owns exclusive reservations and releases them on death/disable.
 
-Setup: **Zombie Outbreak > Phase 10 - Tactical Ambusher**. Defaults: 70 health, travel 3.1 m/s, strike 4.4 m/s. Weights are visible on the prefab. Add MapMarker objects with Ambush kind and include them in EnemyWorld.tacticalPoints. Tactical destinations are transform references.
+Setup: **Dead city > Phase 10 - Tactical Ambusher**. Defaults: 70 health, travel 3.1 m/s, strike 4.4 m/s. Weights are visible on the prefab. Add MapMarker objects with Ambush kind and include them in EnemyWorld.tacticalPoints. Tactical destinations are transform references.
 
 Test: spawn two Ambushers and inspect different reserved points. Move and turn the player to change flank/interception scores. Kill an occupant and verify another can reserve the point. Waiting is bounded to four seconds, then the agent attacks; it cannot hold the last wave open indefinitely by hiding.
 
@@ -129,7 +129,7 @@ Suggested commit: `feat(ai-ambusher): add tactical position scoring and reservat
 
 Created `AI/Elite/EliteBrain.cs`, `Editor/Outbreak/Phase11Setup.cs`, and `Elite.prefab`. A priority hierarchy handles death/busy combat and critical-health retreat before selecting weighted direct attack, heavy attack, push, distance maintenance or repositioning. Inputs include allies within 12 m, weapon threat, player weakness, path availability, firing and heavy-attack cooldown. Retreat lasts three seconds and has a 12 s cooldown.
 
-Setup: **Zombie Outbreak > Phase 11 - Elite commander**. Health 350, movement 2.8 m/s, push 4 m/s, attack range 2.4 m, base damage 16 (heavy multiplier 1.8), windup 0.7 s, heavy cooldown 6 s. The larger visual also has a larger collider/agent radius. Its spawn belongs only in wave five.
+Setup: **Dead city > Phase 11 - Elite commander**. Health 350, movement 2.8 m/s, push 4 m/s, attack range 2.4 m, base damage 16 (heavy multiplier 1.8), windup 0.7 s, heavy cooldown 6 s. The larger visual also has a larger collider/agent radius. Its spawn belongs only in wave five.
 
 Test: ready heavy attack should win at close range; reduce health below 25% to see bounded retreat; switch to shotgun to raise spacing; add allies to increase push utility. Shared combat still rechecks cover and range at impact.
 
@@ -143,7 +143,7 @@ Created `Inventory/LoadoutCatalog`, `LoadoutSession`, `GrenadeProjectile`; `Play
 
 MainMenu -> Loadout -> ZombieMap is in the build scene list. Choose Rifle/SMG/Shotgun plus a fixed Pistol and either Medic (3 medkits + 1 grenade) or Assault (1 medkit + 3 grenades). A single DontDestroyOnLoad session persists validated selection; runtime ammo/counts reset on a fresh gameplay scene. Direct opening of ZombieMap uses catalog defaults.
 
-Setup: **Zombie Outbreak > Phase 12 - Loadout and equipment**. PlayerLoadoutApplier runs before weapon Awake. Q heals 45 up to max, consumes nothing at full health. G throws a continuous-collision Rigidbody grenade at 14 m/s with a 2.5 s fuse, 6 m radius, 100 center damage with falloff and physics impulse. Grenades damage enemies; this version has no self-damage. Explosion effect/audio fields are optional hooks. Reserve awards preserve per-slot ammo state.
+Setup: **Dead city > Phase 12 - Loadout and equipment**. PlayerLoadoutApplier runs before weapon Awake. Q heals 45 up to max, consumes nothing at full health. G throws a continuous-collision Rigidbody grenade at 14 m/s with a 2.5 s fuse, 6 m radius, 100 center damage with falloff and physics impulse. Grenades damage enemies; this version has no self-damage. Explosion effect/audio fields are optional hooks. Reserve awards preserve per-slot ammo state.
 
 Test: change both choices, enter the map, inspect the visible primary and switch to Pistol. Restart to confirm fresh ammo/equipment with the same selection. Heal near max and at full health. Throw against a wall and near multiple colliders on one enemy: damage must apply once per enemy. Pause freezes fuse and reload clocks.
 
@@ -163,7 +163,7 @@ Created `Waves/WaveDefinition.cs`, `WaveManager.cs`, `UI/GameStatusPresenter.cs`
 | 4 | THE SIEGE | 12 | 5 | 4 | 0 |
 | 5 | THE COMMANDER | 10 | 5 | 3 | 1 |
 
-Setup: **Zombie Outbreak > Phase 13 - Five waves**. Initial preparation 6 s, spawn interval 0.7 s, intermission 7 s. Entrances are serialized markers, checked for NavMesh projection, occupancy and 8 m player distance. WaveManager tracks its own living set through one death subscription per enemy. HUD Remaining includes queued and living enemies. Completion requires the spawn queue to finish and the living set to empty. Player death stops the sequence; final completion calls GameUIController.ShowVictory.
+Setup: **Dead city > Phase 13 - Five waves**. Initial preparation 6 s, spawn interval 0.7 s, intermission 7 s. Entrances are serialized markers, checked for NavMesh projection, occupancy and 8 m player distance. WaveManager tracks its own living set through one death subscription per enemy. HUD Remaining includes queued and living enemies. Completion requires the spawn queue to finish and the living set to empty. Player death stops the sequence; final completion calls GameUIController.ShowVictory.
 
 Between waves, each carried weapon receives two reserve magazines, making all primary choices sustainable without adding a loot/inventory system. The HUD shows the supply announcement. Equipment counts and E prompt are event-driven; the only presenter Update expires announcements.
 
@@ -191,7 +191,7 @@ Created `Environment/FlickeringLight.cs`, `Core/CombatEffects.cs`, `Editor/Outbr
 
 Night uses a cool directional moon, warm unshadowed street pools, interior lamps, a flickering emergency lamp and linear distance fog. Ambient fill keeps navigation readable. Concrete, asphalt, brick, timber, metal and dirty window materials are separated. Only the moon casts real-time shadows; shadow distance is 40 m, pixel light count four, particles have bounded counts. The hit/death/impact effect manager pools 16 instances per effect. Environment smoke is limited to 60 particles.
 
-Setup: **Zombie Outbreak > Phase 15 - Night district and effects**. Moving props remain outside permanent navigation geometry; the builder rebakes and checks all marker routes after adding vehicles. Read `TEAM_MODEL_HANDOFF.md` for the two required team-authored models. No external model or texture asset was invented or attributed to a student.
+Setup: **Dead city > Phase 15 - Night district and effects**. Moving props remain outside permanent navigation geometry; the builder rebakes and checks all marker routes after adding vehicles. Read `TEAM_MODEL_HANDOFF.md` for the two required team-authored models. No external model or texture asset was invented or attributed to a student.
 
 Test: check readable silhouettes against the street and interior walls, verify muzzle/impact/hit/death/explosion particles, orbit the shoulder camera near props and doors, and inspect materials for pink shaders. Review point-light overlap and particle counts in Unity Profiler/Frame Debugger. Static flags are set on fixed dressing; baked occlusion/lightmaps require manual baking after final team art stabilizes.
 
@@ -203,7 +203,7 @@ Suggested commit: `feat(graphics): add readable industrial night lighting and co
 
 Updated `Phase2HumanoidFactory` to author distinct zombie idle/walk/run/attack/hit/death and Elite heavy poses; added `Editor/Outbreak/Phase16Setup.cs` and seven native Humanoid clips. Updated EnemyCombat duration, EnemyAnimationController gait speed, PlayerAnimatorDriver damage/reload hooks and PlayerWeaponController reload timing.
 
-Setup: **Zombie Outbreak > Phase 16 - Synchronize animations**. Enemy locomotion blends at 0/1.5/3.5 m/s with GaitScale above 3.5. Attacks use a 1 s source clip, scaled to `windup / 0.6`; damage is gated at normalized time 0.6 and cannot happen twice if an imported clip adds AnimationImpact. Heavy duration scales by 1.4. Death is terminal and suppresses attack/hit triggers. Player reload uses `ReloadSpeed = 1.2 / weapon.reloadTime`, while authoritative ammo remains in WeaponAmmoState. Weapon switching cancels the action layer. Player death finishes using unscaled Animator time behind the paused Game Over panel.
+Setup: **Dead city > Phase 16 - Synchronize animations**. Enemy locomotion blends at 0/1.5/3.5 m/s with GaitScale above 3.5. Attacks use a 1 s source clip, scaled to `windup / 0.6`; damage is gated at normalized time 0.6 and cannot happen twice if an imported clip adds AnimationImpact. Heavy duration scales by 1.4. Death is terminal and suppresses attack/hit triggers. Player reload uses `ReloadSpeed = 1.2 / weapon.reloadTime`, while authoritative ammo remains in WeaponAmmoState. Weapon switching cancels the action layer. Player death finishes using unscaled Animator time behind the paused Game Over panel.
 
 Test: compare attack arm extension with health loss, leave range during windup, verify recovery from Hit, run Runner faster than Hunter without root-motion drift, check all four weapon reload durations and cancellation, and kill an attacking agent. Inspect transitions for a terminal death state with no exits.
 

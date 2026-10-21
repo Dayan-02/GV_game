@@ -24,7 +24,8 @@ public sealed class FirstPersonWeaponRig : MonoBehaviour
     private ShadowCastingMode[] originalShadows;
     private WeaponHitscan cover;
     private Vector3 position, angles;
-    private float recoil, phase, reloadStart, obstruction, equip;
+    private float recoil, recoilVelocity, kick, kickVelocity, phase, reloadStart, obstruction, equip;
+    private float aimPose;
     private bool reloading, initialized;
     public bool IsSprinting => movement != null && movement.IsSprinting;
     public float ReloadProgress => reloading && weapons.CurrentWeapon != null ?
@@ -70,8 +71,26 @@ public sealed class FirstPersonWeaponRig : MonoBehaviour
         { renderer.shadowCastingMode = ShadowCastingMode.Off; renderer.receiveShadows = false; }
     }
 
-    private void OnShot(WeaponShotInfo shot) => recoil = Mathf.Min(.065f, recoil + .025f);
-    private void OnWeaponChanged(WeaponData data) { equip = .1f; recoil = 0; reloading = false; }
+    private void OnShot(WeaponShotInfo shot)
+    {
+        float push, rise;
+        switch (weapons.CurrentWeaponCategory)
+        {
+            case WeaponCategory.SMG: push = .013f; rise = .65f; break;
+            case WeaponCategory.Shotgun: push = .04f; rise = 2.8f; break;
+            case WeaponCategory.Pistol: push = .023f; rise = 3.2f; break;
+            default: push = .023f; rise = 1.3f; break;
+        }
+        // Impulse into a damped spring: fast rise followed by a continuous recovery.
+        float aimScale = Mathf.Lerp(1, .65f, aimPose);
+        recoilVelocity = Mathf.Min(recoilVelocity + push * 58f * aimScale, 4f);
+        kickVelocity = Mathf.Min(kickVelocity + rise * 58f * aimScale, 260f);
+    }
+    private void OnWeaponChanged(WeaponData data)
+    {
+        equip = .16f; recoil = recoilVelocity = kick = kickVelocity = 0;
+        reloading = false; initialized = false;
+    }
     private void OnReloadChanged(bool value) { reloading = value; reloadStart = Time.time; }
 
     private void LateUpdate()
@@ -88,7 +107,9 @@ public sealed class FirstPersonWeaponRig : MonoBehaviour
         weaponCamera.aspect = worldCamera.aspect;
 
         float dt = Time.deltaTime;
-        float blend = cameraRig != null ? cameraRig.AimBlend : aim.IsAiming ? 1 : 0;
+        float requestedAim = cameraRig != null ? cameraRig.AimBlend : aim != null && aim.IsAiming ? 1 : 0;
+        aimPose = Mathf.Lerp(aimPose, reloading || IsSprinting ? 0 : requestedAim, 1 - Mathf.Exp(-16f * dt));
+        float blend = aimPose;
         Vector3 hip, sight;
         switch (weapons.CurrentWeaponCategory)
         {
@@ -109,9 +130,10 @@ public sealed class FirstPersonWeaponRig : MonoBehaviour
         if (reloading)
         {
             float t = ReloadProgress;
-            float envelope = Mathf.Sin(Mathf.Clamp01(t / .9f) * Mathf.PI);
-            target += new Vector3(-.015f, -.13f, -.06f) * envelope;
-            targetAngles += new Vector3(18, -10, -18) * envelope;
+            float envelope = WeaponReloadMotion.Hold(t);
+            bool pistol = weapons.CurrentWeaponCategory == WeaponCategory.Pistol;
+            target += new Vector3(-.015f, -.045f, -.035f) * envelope;
+            targetAngles += (pistol ? new Vector3(8, -12, -24) : new Vector3(6, -8, -16)) * envelope;
         }
         float clearance = .95f;
         if (cover.Raycast(worldCamera.transform.position, worldCamera.transform.forward, clearance, out var hit))
@@ -120,16 +142,26 @@ public sealed class FirstPersonWeaponRig : MonoBehaviour
         lower = Mathf.Max(lower, obstruction);
         target += new Vector3(0, -.10f, -.10f) * lower;
         targetAngles += new Vector3(22, 0, -8) * lower;
-        recoil = Mathf.MoveTowards(recoil, 0, dt * .22f);
+        Spring(ref recoil, ref recoilVelocity, 24f, dt);
+        Spring(ref kick, ref kickVelocity, 22f, dt);
         equip = Mathf.MoveTowards(equip, 0, dt * .6f);
-        target += new Vector3(0, -equip, -recoil);
-        targetAngles.x -= recoil * 90;
-        if (!initialized) { position = target; initialized = true; }
+        target += new Vector3(0, -equip, 0);
+        targetAngles.x += equip * 90f;
+        if (!initialized) { position = target; angles = targetAngles; initialized = true; }
         float response = 1 - Mathf.Exp(-poseResponse * dt);
         position = Vector3.Lerp(position, target, response);
         angles = Vector3.Lerp(angles, targetAngles, response);
-        weaponSocket.localPosition = position;
-        weaponSocket.localRotation = Quaternion.Euler(angles);
+        weaponSocket.localPosition = position + new Vector3(0, 0, -Mathf.Min(.075f, recoil));
+        weaponSocket.localRotation = Quaternion.Euler(angles + new Vector3(-Mathf.Min(7f, kick), 0, 0));
+    }
+
+    private static void Spring(ref float value, ref float velocity, float frequency, float dt)
+    {
+        // Exact critically damped solution; stable through varying frame lengths.
+        float intermediate = velocity + frequency * value;
+        float decay = Mathf.Exp(-frequency * dt);
+        value = (value + intermediate * dt) * decay;
+        velocity = (velocity - frequency * intermediate * dt) * decay;
     }
 
     private void OnDisable()

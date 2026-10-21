@@ -1,0 +1,17 @@
+D:\GV project\ArtSource\CustomEnemies\ReferenceRevision3\revise_models.py:31: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+BUILD_BEGIN Runner
+REFINE_BEGIN Runner 90
+REFINE_COMPLETE Runner 17897
+DETAILS_BEGIN Runner
+GEOMETRY_COMPLETE Runner 24929
+MATERIALS_COMPLETE Runner
+D:\GV project\ArtSource\CustomEnemies\ReferenceRevision3\revise_models.py:434: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+Info: Saved as "Runner_ReferenceRevision3.blend"
+REVISION_SAVED Runner {"character": "Runner", "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Runner_Animated.blend", "source_sha256": "d993f35c1c7b9cd276d0dc630b3f50a80d4b4e7f1bc87c69d5bfb1168071041b", "vertices": 24929, "triangles": 46926, "bones": 52, "rest_pose_matches_source": true, "unweighted_vertices": 0, "actions": ["Runner_Walk", "Runner_TurnRight", "Runner_TurnLeft", "Runner_Stagger", "Runner_Idle", "Runner_Hit", "Runner_Death", "Runner_Chase", "Runner_Attack"], "packed_images": 1, "output_sha256": "87f9190f6f11e0df3d508aa58cd71f64f21732e2dfa07b41146ee27d963c9767"}
+00:22.922  render           | Saved: 'D:\GV project\ArtSource\CustomEnemies\ReferenceRevision3\Previews\Runner_ThreeQuarter.png'
+REVISION_RENDERED Runner
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

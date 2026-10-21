@@ -15,7 +15,7 @@ public static class SurvivalistSetup
     public const string MotionRoot = "Assets/Animations/Survivalist";
     public const string Model = Root + "/Vendor/Prefab/Survivalist (1).prefab";
 
-    [MenuItem("Zombie Outbreak/Art/Apply selected P2 Survivalist player")]
+    [MenuItem("Dead city/Art/Apply selected P2 Survivalist player")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Leave Play Mode before applying P2.");

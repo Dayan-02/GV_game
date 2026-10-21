@@ -14,9 +14,15 @@ public sealed class EnemyAnimationController : MonoBehaviour
     [Header("Contact-timed action clips")]
     [SerializeField] private AnimationClip attackClip;
     [SerializeField] private AnimationClip heavyAttackClip;
+    [Header("Hit presentation")]
+    [SerializeField, Min(.1f)] private float minimumHitReactionInterval = .3f;
+    private float nextHitReaction;
     private EnemyHealth health;
     private EnemyMovement movement;
     private EnemyCombat combat;
+    private bool hasDeathVariants;
+    private static readonly int DeathVariant = Animator.StringToHash("DeathVariant");
+    private static readonly int DeathSpeed = Animator.StringToHash("DeathSpeed");
     private static readonly int Speed = Animator.StringToHash("Speed"), Attack = Animator.StringToHash("Attack"), Heavy = Animator.StringToHash("Heavy"), Hit = Animator.StringToHash("Hit"), Dead = Animator.StringToHash("Dead"), AttackSpeed = Animator.StringToHash("AttackSpeed");
     private static readonly int Locomotion = Animator.StringToHash("Base Layer.Locomotion");
     private void Awake()
@@ -24,6 +30,9 @@ public sealed class EnemyAnimationController : MonoBehaviour
         health = GetComponent<EnemyHealth>();
         movement = GetComponent<EnemyMovement>();
         combat = GetComponent<EnemyCombat>();
+        if (animator != null)
+            foreach (var parameter in animator.parameters)
+                if (parameter.nameHash == DeathVariant) hasDeathVariants = true;
     }
 
     private void Start()
@@ -39,6 +48,7 @@ public sealed class EnemyAnimationController : MonoBehaviour
 
     private void OnEnable()
     {
+        nextHitReaction = 0f;
         health.Hit += OnHit;
         health.Died += OnDeath;
         combat.AttackStarted += OnAttack;
@@ -72,8 +82,16 @@ public sealed class EnemyAnimationController : MonoBehaviour
 
     private void OnHit(float amount)
     {
-        if (animator != null && !combat.IsAttacking)
-            animator.SetTrigger(Hit);
+        if (animator == null || health.IsDead || combat.IsAttacking || Time.time < nextHitReaction)
+            return;
+        // Rapid fire/shotgun pellets must not queue repeated whole-body flinches.
+        // Damage still applies for every hit; this only gates the presentation.
+        var state = animator.GetCurrentAnimatorStateInfo(0);
+        if (animator.IsInTransition(0) || state.IsName("Hit") || state.IsName("Death"))
+            return;
+        nextHitReaction = Time.time + minimumHitReactionInterval;
+        animator.ResetTrigger(Hit);
+        animator.SetTrigger(Hit);
     }
 
     private void OnDeath(EnemyHealth value)
@@ -83,6 +101,12 @@ public sealed class EnemyAnimationController : MonoBehaviour
             animator.ResetTrigger(Attack);
             animator.ResetTrigger(Heavy);
             animator.ResetTrigger(Hit);
+            animator.SetFloat(Speed, 0);
+            if (hasDeathVariants)
+            {
+                animator.SetInteger(DeathVariant, Random.Range(0, 3));
+                animator.SetFloat(DeathSpeed, Random.Range(.96f, 1.04f));
+            }
             animator.SetBool(Dead, true);
         }
     }

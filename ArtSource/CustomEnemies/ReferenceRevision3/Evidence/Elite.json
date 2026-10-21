@@ -1,0 +1,24 @@
+{
+  "character": "Elite",
+  "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Elite_Animated.blend",
+  "source_sha256": "101a1f1f5d7d279f4def126bc1d46b60f731521cc49867c304e6ae58bfa1546e",
+  "vertices": 24981,
+  "triangles": 49322,
+  "bones": 52,
+  "rest_pose_matches_source": true,
+  "unweighted_vertices": 0,
+  "actions": [
+    "Elite_Walk",
+    "Elite_TurnRight",
+    "Elite_TurnLeft",
+    "Elite_Stagger",
+    "Elite_Idle",
+    "Elite_Hit",
+    "Elite_HeavyAttack",
+    "Elite_Death",
+    "Elite_Chase",
+    "Elite_Attack"
+  ],
+  "packed_images": 1,
+  "output_sha256": "94f8781a05808e26bf2215f416b226bc13670c51fc27bab0b5a42a97d2af35e6"
+}

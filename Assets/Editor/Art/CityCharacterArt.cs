@@ -6,7 +6,7 @@ using G = CityArtGeometry;
 /// <summary>Clothing and silhouette improvements for the existing generated rigs; no original team-art claim.</summary>
 public static class CityCharacterArt
 {
-    [MenuItem("Zombie Outbreak/Art/Refresh generated character clothing")]
+    [MenuItem("Dead city/Art/Refresh generated character clothing")]
     public static void Apply()
     {
         var player=Object.FindAnyObjectByType<ThirdPersonPlayerController>();

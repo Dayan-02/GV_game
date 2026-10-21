@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class Phase8Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 8 - Hunter A-star")]
+    [MenuItem("Dead city/Phase 8 - Hunter A-star")]
     public static void Build()
     {
         OutbreakEditor.Open();

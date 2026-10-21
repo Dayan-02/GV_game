@@ -10,7 +10,7 @@ public static class TeamArtIntegration
 {
     public const string CatalogPath = "Assets/Data/TeamArtCatalog.asset";
 
-    [MenuItem("Zombie Outbreak/Team Art/Validate supplied models")]
+    [MenuItem("Dead city/Team Art/Validate supplied models")]
     public static void ValidateSuppliedModels()
     {
         var catalog = AssetDatabase.LoadAssetAtPath<TeamArtCatalog>(CatalogPath);
@@ -29,7 +29,7 @@ public static class TeamArtIntegration
         else Debug.LogWarning("Original barricade prefab is not assigned. See TEAM_MODEL_HANDOFF.md.");
     }
 
-    [MenuItem("Zombie Outbreak/Team Art/Apply validated models to game")]
+    [MenuItem("Dead city/Team Art/Apply validated models to game")]
     public static void Apply()
     {
         var catalog = AssetDatabase.LoadAssetAtPath<TeamArtCatalog>(CatalogPath);

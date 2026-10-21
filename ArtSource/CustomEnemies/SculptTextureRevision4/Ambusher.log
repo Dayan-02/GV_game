@@ -1,0 +1,21 @@
+00:01.375  blend            | Read blend: "D:\GV project\ArtSource\CustomEnemies\ReferenceRevision3\Blender\Ambusher_ReferenceRevision3.blend"
+D:\GV project\ArtSource\CustomEnemies\SculptTextureRevision4\refine_and_bake.py:310: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if not mat or not mat.use_nodes:continue
+BAKE Ambusher BaseColor
+Info: Baking map saved to internal image, save it externally or pack it
+BAKE Ambusher Roughness
+Info: Baking map saved to internal image, save it externally or pack it
+BAKE Ambusher Metallic
+Info: Baking map saved to internal image, save it externally or pack it
+BAKE Ambusher Normal
+D:\GV project\ArtSource\CustomEnemies\SculptTextureRevision4\refine_and_bake.py:496: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  atlas=bpy.data.materials.new(kind+"_Sculpt4_PBR_Atlas");atlas.use_nodes=True
+01:00.281  render           | Saved: 'D:\GV project\ArtSource\CustomEnemies\SculptTextureRevision4\Previews\Ambusher_Actual_Blender.png'
+01:28.594  render           | Saved: 'D:\GV project\ArtSource\CustomEnemies\SculptTextureRevision4\Previews\Ambusher_Face_Actual_Blender.png'
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Saved as "Ambusher_Sculpt4_EditableMaterials.blend"
+Info: Saved as "Ambusher_Sculpt4.blend"
+COMPLETE Ambusher
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

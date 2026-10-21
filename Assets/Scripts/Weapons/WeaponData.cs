@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>Shared, read-only-at-runtime weapon tuning. Ammo belongs to WeaponAmmoState.</summary>
-[CreateAssetMenu(menuName = "Zombie Outbreak/Weapon Data", fileName = "NewWeapon")]
+[CreateAssetMenu(menuName = "Dead city/Weapon Data", fileName = "NewWeapon")]
 public sealed class WeaponData : ScriptableObject
 {
     [SerializeField] private string weaponName = "Rifle";

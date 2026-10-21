@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public static class Phase6Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 6 - Add interactions")]
+    [MenuItem("Dead city/Phase 6 - Add interactions")]
     public static void Build()
     {
         OutbreakEditor.Open();

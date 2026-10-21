@@ -16,7 +16,7 @@ public static class RealisticCityUpgrade
     private const string Vendor=Root+"/PolyHaven";
     private static readonly System.Random random=new System.Random(74173);
     private static float Range(float a,float b)=>Mathf.Lerp(a,b,(float)random.NextDouble());
-    [MenuItem("Tools/Dead Zone/Apply realistic city graphics")]
+    [MenuItem("Tools/Dead city/Apply realistic city graphics")]
     public static void Apply()
     {
         if(EditorApplication.isPlaying)throw new Exception("Leave Play Mode first.");
@@ -169,7 +169,7 @@ public static class RealisticCityUpgrade
         }
         EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());EditorSceneManager.SaveOpenScenes();AssetDatabase.SaveAssets();Capture();
     }
-    [MenuItem("Tools/Dead Zone/Refine realistic city lighting")]
+    [MenuItem("Tools/Dead city/Refine realistic city lighting")]
     public static void Refine()
     {
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Leave Play Mode first.");

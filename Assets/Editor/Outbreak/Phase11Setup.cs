@@ -4,7 +4,7 @@ using UnityEngine.AI;
 
 public static class Phase11Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 11 - Elite commander")]
+    [MenuItem("Dead city/Phase 11 - Elite commander")]
     public static void Build()
     {
         OutbreakEditor.Open();

@@ -9,7 +9,7 @@ public sealed class WaveEntry
     public int count = 1;
 }
 
-[CreateAssetMenu(menuName = "Zombie Outbreak/Wave Definition")]
+[CreateAssetMenu(menuName = "Dead city/Wave Definition")]
 public sealed class WaveDefinition : ScriptableObject
 {
     public string title;

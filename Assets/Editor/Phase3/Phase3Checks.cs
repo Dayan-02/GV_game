@@ -8,7 +8,7 @@ using Object = UnityEngine.Object;
 /// <summary>Focused regression checks, run explicitly from the menu or batch -executeMethod.</summary>
 public static class Phase3Checks
 {
-    [MenuItem("Tools/Zombie Outbreak/Phase 3/Run Ammo and Physics Checks")]
+    [MenuItem("Tools/Dead city/Phase 3/Run Ammo and Physics Checks")]
     public static void Run()
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) throw new InvalidOperationException("Exit Play Mode first.");

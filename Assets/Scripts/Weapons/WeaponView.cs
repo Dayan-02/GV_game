@@ -6,6 +6,7 @@ public sealed class WeaponView : MonoBehaviour
 {
     [SerializeField] private Transform muzzle;
     [SerializeField] private Transform supportHand;
+    [SerializeField] private Transform primaryHand;
     [SerializeField] private ParticleSystem muzzleFlash;
     [Tooltip("A tiny emissive mesh used as a package-free greybox flash.")]
     [SerializeField] private GameObject greyboxFlash;
@@ -15,9 +16,15 @@ public sealed class WeaponView : MonoBehaviour
     private float flashUntil;
     private Quaternion restRotation;
     private WeaponMechanism mechanism;
+    private ParticleSystem[] flashParts = System.Array.Empty<ParticleSystem>();
 
     public Transform Muzzle => muzzle;
     public Transform SupportHand => supportHand;
+    public Vector3 PrimaryHandPosition => primaryHand != null ? primaryHand.position :
+        transform.TransformPoint(new Vector3(0, -.015f, -.025f));
+    public Vector3 ReloadHandPosition => mechanism != null && mechanism.Magazine != null ?
+        mechanism.Magazine.position + transform.TransformVector(new Vector3(-.025f, -.025f, 0)) :
+        transform.TransformPoint(new Vector3(-.04f, -.08f, .15f));
 
     public void Initialize(WeaponData settings)
     {
@@ -31,6 +38,8 @@ public sealed class WeaponView : MonoBehaviour
             muzzleFlash.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         }
         if (greyboxFlash != null) greyboxFlash.SetActive(false);
+        if (muzzleFlash != null)
+            flashParts = muzzleFlash.GetComponentsInChildren<ParticleSystem>(true);
     }
 
     public void AimAt(Vector3 point, bool aiming)
@@ -44,7 +53,19 @@ public sealed class WeaponView : MonoBehaviour
     public void PlayShot()
     {
         if (mechanism != null) mechanism.Fire();
-        if (muzzleFlash != null) muzzleFlash.Play(true);
+        if (muzzleFlash != null)
+        {
+            // Restart only the brief flash. Smoke already emitted by earlier
+            // rounds can finish drifting instead of popping off on every shot.
+            muzzleFlash.Stop(false, ParticleSystemStopBehavior.StopEmittingAndClear);
+            muzzleFlash.Play(false);
+            foreach (var part in flashParts)
+            {
+                if (part == null || part == muzzleFlash) continue;
+                if (!part.isPlaying) part.Play(false);
+                part.Emit(1);
+            }
+        }
         else if (greyboxFlash != null)
         {
             greyboxFlash.SetActive(true);

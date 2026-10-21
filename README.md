@@ -1,8 +1,8 @@
-# Zombie Outbreak
+# Dead city
 
 Unity **6000.5.3f1** · 3D first-person survival shooter · Phases 1–18 prototype
 
-Open `Assets/Scenes/Opening.unity` and press Play for the new 10-second opening video, or open `Assets/Scenes/MainMenu.unity` to go directly to the menu. Space, Enter, Escape or a click skips the intro. The updated Windows game is `Builds/Windows/ZombieOutbreak.exe`; see [opening video setup](OPENING_VIDEO.md).
+Open `Assets/Scenes/Opening.unity` and press Play for the new 10-second opening video, or open `Assets/Scenes/MainMenu.unity` to go directly to the menu. Space, Enter, Escape or a click skips the intro. The updated Windows game is `Builds/Windows/DeadCity.exe`; see [opening video setup](OPENING_VIDEO.md).
 
 Latest AI update: [four enemy roles, finite perception, group attack limits and navigation recovery](AI_BEHAVIOUR_UPDATE.md). Includes Inspector tuning, F3 diagnostics and isolated behaviour checks.
 
@@ -18,7 +18,7 @@ Previous infected movement update: [four infected locomotion styles, corrected s
 
 Latest visual update: [scanned plants/vehicles, linear HDR lighting and weathered city materials](REALISTIC_GRAPHICS_UPDATE.md). Open **Assets/Scenes/EnhancedCity/ZombieMap.unity** to see it. The existing map layout, collision and navigation are preserved.
 
-The current Windows build includes the opening cinematic, enhanced city and custom Blender enemy models. Copy the complete `Builds/Windows` folder to another Windows computer and run `ZombieOutbreak.exe`; keep its accompanying files together. The outdated Windows ZIP has been removed.
+The current Windows build includes the opening cinematic, enhanced city and custom Blender enemy models. Copy the complete `Builds/Windows` folder to another Windows computer and run `DeadCity.exe`; keep its accompanying files together. The outdated Windows ZIP has been removed.
 
 - [Controls, setup, hierarchy and troubleshooting](PLAY_AND_SETUP.md)
 - [Per-phase implementation and suggested commits](DEVELOPMENT_STATUS.md)

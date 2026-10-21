@@ -11,7 +11,7 @@ public sealed class EquipmentPack
     public int grenades;
 }
 
-[CreateAssetMenu(menuName = "Zombie Outbreak/Loadout Catalog")]
+[CreateAssetMenu(menuName = "Dead city/Loadout Catalog")]
 public sealed class LoadoutCatalog : ScriptableObject
 {
     public WeaponData[] primaries;

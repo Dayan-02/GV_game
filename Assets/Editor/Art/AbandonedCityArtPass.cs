@@ -13,7 +13,7 @@ public static class AbandonedCityArtPass
 {
     private static Material brick, concrete, asphalt, iron, wood, paving, trim, glass, glow, black;
 
-    [MenuItem("Zombie Outbreak/Art/Apply abandoned city art pass")]
+    [MenuItem("Dead city/Art/Apply abandoned city art pass")]
     public static void Build()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Stop Play Mode before editing art.");

@@ -1,0 +1,539 @@
+[
+  {
+    "character": "Hunter",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Hunter_Animated.blend",
+    "source_sha256": "3a8c47112c9e15b772797cf039ca7e9b3355cc06da68c479ee03541f06fb3c4e",
+    "vertices": 40525,
+    "triangles": 78260,
+    "bones": 52,
+    "rest_pose_matches_source": true,
+    "unweighted_vertices": 0,
+    "actions": [
+      "Hunter_Walk",
+      "Hunter_TurnRight",
+      "Hunter_TurnLeft",
+      "Hunter_Stagger",
+      "Hunter_Idle",
+      "Hunter_Hit",
+      "Hunter_Death",
+      "Hunter_Chase",
+      "Hunter_Attack"
+    ],
+    "packed_images": 1,
+    "output_sha256": "a33f124df92c5e5a5846c271b48a6673634a24c339dc004dd2df92e79890f0ce",
+    "reopened_successfully": true,
+    "weight_sum_errors": 0,
+    "missing_bone_groups": [],
+    "motion_samples": [
+      {
+        "action": "Walk",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8196967840194702
+      },
+      {
+        "action": "Walk",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999995231628418,
+        "height": 1.8016622066497803
+      },
+      {
+        "action": "Walk",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8196967840194702
+      },
+      {
+        "action": "Walk",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999995231628418,
+        "height": 1.8017292022705078
+      },
+      {
+        "action": "Walk",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8196967840194702
+      },
+      {
+        "action": "Chase",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.743528127670288
+      },
+      {
+        "action": "Chase",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999995231628418,
+        "height": 1.7075504064559937
+      },
+      {
+        "action": "Chase",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.7427533864974976
+      },
+      {
+        "action": "Chase",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.005000114440917969,
+        "height": 1.7078882455825806
+      },
+      {
+        "action": "Chase",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.743528127670288
+      },
+      {
+        "action": "Attack",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8806965351104736
+      },
+      {
+        "action": "Attack",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.884024977684021
+      },
+      {
+        "action": "Attack",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8670086860656738
+      },
+      {
+        "action": "Attack",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.862446665763855
+      },
+      {
+        "action": "Attack",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8806965351104736
+      }
+    ],
+    "source_unchanged": true
+  },
+  {
+    "character": "Runner",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Runner_Animated.blend",
+    "source_sha256": "d993f35c1c7b9cd276d0dc630b3f50a80d4b4e7f1bc87c69d5bfb1168071041b",
+    "vertices": 24929,
+    "triangles": 46926,
+    "bones": 52,
+    "rest_pose_matches_source": true,
+    "unweighted_vertices": 0,
+    "actions": [
+      "Runner_Walk",
+      "Runner_TurnRight",
+      "Runner_TurnLeft",
+      "Runner_Stagger",
+      "Runner_Idle",
+      "Runner_Hit",
+      "Runner_Death",
+      "Runner_Chase",
+      "Runner_Attack"
+    ],
+    "packed_images": 1,
+    "output_sha256": "8e296f7b6ddfc347399341139c700cbe333ebfe46f1f2621093bda3b490571c8",
+    "reopened_successfully": true,
+    "weight_sum_errors": 0,
+    "missing_bone_groups": [],
+    "motion_samples": [
+      {
+        "action": "Walk",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8097871541976929
+      },
+      {
+        "action": "Walk",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999995231628418,
+        "height": 1.7921223640441895
+      },
+      {
+        "action": "Walk",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8097871541976929
+      },
+      {
+        "action": "Walk",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.005000114440917969,
+        "height": 1.7919690608978271
+      },
+      {
+        "action": "Walk",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8097871541976929
+      },
+      {
+        "action": "Chase",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999518394470215,
+        "height": 1.7313158512115479
+      },
+      {
+        "action": "Chase",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999995231628418,
+        "height": 1.6959148645401
+      },
+      {
+        "action": "Chase",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.730039119720459
+      },
+      {
+        "action": "Chase",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.6952667236328125
+      },
+      {
+        "action": "Chase",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999518394470215,
+        "height": 1.7313158512115479
+      },
+      {
+        "action": "Attack",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8707867860794067
+      },
+      {
+        "action": "Attack",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.881499171257019
+      },
+      {
+        "action": "Attack",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.853172779083252
+      },
+      {
+        "action": "Attack",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8450831174850464
+      },
+      {
+        "action": "Attack",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.8707867860794067
+      }
+    ],
+    "source_unchanged": true
+  },
+  {
+    "character": "Ambusher",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Ambusher_Animated.blend",
+    "source_sha256": "93f6f8bc0e78e33807ce5e51183cd0b8c9823f2314657d5957df0c0cbfa34c0e",
+    "vertices": 29571,
+    "triangles": 58462,
+    "bones": 52,
+    "rest_pose_matches_source": true,
+    "unweighted_vertices": 0,
+    "actions": [
+      "Ambusher_Walk",
+      "Ambusher_TurnRight",
+      "Ambusher_TurnLeft",
+      "Ambusher_Stagger",
+      "Ambusher_Idle",
+      "Ambusher_Hit",
+      "Ambusher_Death",
+      "Ambusher_Chase",
+      "Ambusher_Attack"
+    ],
+    "packed_images": 1,
+    "output_sha256": "d5456095bca3214878bee6d81fdbe0d49acc8dcf781bb0f72ed16bd3afb66017",
+    "reopened_successfully": true,
+    "weight_sum_errors": 0,
+    "missing_bone_groups": [],
+    "motion_samples": [
+      {
+        "action": "Walk",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8244191408157349
+      },
+      {
+        "action": "Walk",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": -0.0031452178955078125,
+        "height": 1.814604640007019
+      },
+      {
+        "action": "Walk",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.824256181716919
+      },
+      {
+        "action": "Walk",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": -0.002171158790588379,
+        "height": 1.813626766204834
+      },
+      {
+        "action": "Walk",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999637603759766,
+        "height": 1.8244191408157349
+      },
+      {
+        "action": "Chase",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999518394470215,
+        "height": 1.7378488779067993
+      },
+      {
+        "action": "Chase",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.7018332481384277
+      },
+      {
+        "action": "Chase",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999518394470215,
+        "height": 1.7378488779067993
+      },
+      {
+        "action": "Chase",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999876022338867,
+        "height": 1.7018178701400757
+      },
+      {
+        "action": "Chase",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999518394470215,
+        "height": 1.7378488779067993
+      },
+      {
+        "action": "Attack",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.8854188919067383
+      },
+      {
+        "action": "Attack",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.89910888671875
+      },
+      {
+        "action": "Attack",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.858163833618164
+      },
+      {
+        "action": "Attack",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.8502272367477417
+      },
+      {
+        "action": "Attack",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.004999756813049316,
+        "height": 1.8854188919067383
+      }
+    ],
+    "source_unchanged": true
+  },
+  {
+    "character": "Elite",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Elite_Animated.blend",
+    "source_sha256": "101a1f1f5d7d279f4def126bc1d46b60f731521cc49867c304e6ae58bfa1546e",
+    "vertices": 24981,
+    "triangles": 49322,
+    "bones": 52,
+    "rest_pose_matches_source": true,
+    "unweighted_vertices": 0,
+    "actions": [
+      "Elite_Walk",
+      "Elite_TurnRight",
+      "Elite_TurnLeft",
+      "Elite_Stagger",
+      "Elite_Idle",
+      "Elite_Hit",
+      "Elite_HeavyAttack",
+      "Elite_Death",
+      "Elite_Chase",
+      "Elite_Attack"
+    ],
+    "packed_images": 1,
+    "output_sha256": "94f8781a05808e26bf2215f416b226bc13670c51fc27bab0b5a42a97d2af35e6",
+    "reopened_successfully": true,
+    "weight_sum_errors": 0,
+    "missing_bone_groups": [],
+    "motion_samples": [
+      {
+        "action": "Walk",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.005349636077880859,
+        "height": 1.9332751035690308
+      },
+      {
+        "action": "Walk",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.005349993705749512,
+        "height": 1.9140514135360718
+      },
+      {
+        "action": "Walk",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.005349636077880859,
+        "height": 1.933101773262024
+      },
+      {
+        "action": "Walk",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.9140651226043701
+      },
+      {
+        "action": "Walk",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.005349636077880859,
+        "height": 1.9332751035690308
+      },
+      {
+        "action": "Chase",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.005349636077880859,
+        "height": 1.8535243272781372
+      },
+      {
+        "action": "Chase",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.8151389360427856
+      },
+      {
+        "action": "Chase",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.008569002151489258,
+        "height": 1.8495855331420898
+      },
+      {
+        "action": "Chase",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.8152166604995728
+      },
+      {
+        "action": "Chase",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.005349636077880859,
+        "height": 1.8535243272781372
+      },
+      {
+        "action": "Attack",
+        "phase": 0,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.9985449314117432
+      },
+      {
+        "action": "Attack",
+        "phase": 0.25,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 2.0010123252868652
+      },
+      {
+        "action": "Attack",
+        "phase": 0.5,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.9858659505844116
+      },
+      {
+        "action": "Attack",
+        "phase": 0.75,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.9813288450241089
+      },
+      {
+        "action": "Attack",
+        "phase": 1,
+        "finite": true,
+        "floor_min": 0.005349874496459961,
+        "height": 1.9985449314117432
+      }
+    ],
+    "source_unchanged": true
+  }
+]

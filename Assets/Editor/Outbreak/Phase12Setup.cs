@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public static class Phase12Setup
 {
     public const string CatalogPath = "Assets/Data/LoadoutCatalog.asset";
-    [MenuItem("Zombie Outbreak/Phase 12 - Loadout and equipment")]
+    [MenuItem("Dead city/Phase 12 - Loadout and equipment")]
     public static void Build()
     {
         OutbreakEditor.Open();
@@ -75,7 +75,7 @@ public static class Phase12Setup
         MakeMenu(false, catalog);
         MakeMenu(true, catalog);
         OpeningVideoSetup.ConfigureSceneFlow();
-        PlayerSettings.productName = "Zombie Outbreak";
+        PlayerSettings.productName = "Dead city";
         OutbreakEditor.Open();
         OutbreakEditor.Save("12");
     }
@@ -108,7 +108,7 @@ public static class Phase12Setup
         var card = Phase4UIFactory.Card(canvas, "Content", new Vector2(1300, 900), new Vector2(.5f, .5f), Vector2.zero);
         var accent = new Color(.28f, .88f, .72f);
         Phase4UIFactory.Label(card, "Eyebrow", "SECTOR 07 / INDUSTRIAL QUARANTINE", 20, accent, new Vector2(60, 814), new Vector2(1180, 35));
-        Phase4UIFactory.Label(card, "Title", loadout ? "PREPARE YOUR LOADOUT" : "ZOMBIE OUTBREAK", 64, Color.white, new Vector2(60, 710), new Vector2(1180, 100));
+        Phase4UIFactory.Label(card, "Title", loadout ? "PREPARE YOUR LOADOUT" : "DEAD CITY", 64, Color.white, new Vector2(60, 710), new Vector2(1180, 100));
         Phase4UIFactory.Label(card, "Subtitle", loadout ? "CHOOSE A PRIMARY. YOUR SIDEARM IS A PISTOL." : "FIVE WAVES. FOUR HUNTERS. ONE WAY OUT.", 23, new Color(.65f, .72f, .78f), new Vector2(60, 660), new Vector2(1180, 40));
         var selection = Phase4UIFactory.Label(card, "Selection", loadout ? "" : "SURVIVE THE DISTRICT\n\nWASD  MOVE    SHIFT  RUN    CTRL  SPRINT    SPACE  JUMP\nRMB  AIM    LMB  FIRE    R  RELOAD    1 / 2  SWITCH\nE  INTERACT    Q  MEDKIT    G  GRENADE    ESC  PAUSE", 24, Color.white, new Vector2(60, loadout ? 240 : 315), new Vector2(1180, loadout ? 100 : 280), TextAlignmentOptions.Center);
         OutbreakEditor.Set(menu, "selectionText", selection);

@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 public static class Phase5Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 5 - Build district")]
+    [MenuItem("Dead city/Phase 5 - Build district")]
     public static void Build()
     {
         OutbreakEditor.Open();

@@ -139,6 +139,7 @@ public sealed class EnemyActor : MonoBehaviour
         GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
         foreach (var c in GetComponentsInChildren<Collider>())
             c.enabled = false;
-        Destroy(gameObject, 5);
+        // Allow the full collapse and a settled corpse pose before cleanup.
+        Destroy(gameObject, 9);
     }
 }

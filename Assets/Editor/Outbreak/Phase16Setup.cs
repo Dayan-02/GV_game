@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Phase16Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 16 - Synchronize animations")]
+    [MenuItem("Dead city/Phase 16 - Synchronize animations")]
     public static void Build()
     {
         OutbreakEditor.Open();

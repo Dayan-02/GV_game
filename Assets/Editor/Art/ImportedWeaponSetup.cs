@@ -9,7 +9,7 @@ using Object = UnityEngine.Object;
 public static class ImportedWeaponSetup
 {
     private const string Root = "Assets/Art/ImportedWeapons/CC0";
-    [MenuItem("Zombie Outbreak/Art/Apply imported weapon models")]
+    [MenuItem("Dead city/Art/Apply imported weapon models")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode first.");

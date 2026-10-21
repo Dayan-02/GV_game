@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>Cosmetic slide/bolt, pump and magazine motion. Ammo and impacts remain in the weapon controller.</summary>
-[DisallowMultipleComponent]
+[DefaultExecutionOrder(250), DisallowMultipleComponent]
 public sealed class WeaponMechanism : MonoBehaviour
 {
     [SerializeField] private Transform bolt;
@@ -11,6 +11,8 @@ public sealed class WeaponMechanism : MonoBehaviour
     private Vector3 boltRest, magazineRest;
     private float shotStart = -100, reloadStart = -100, reloadDuration;
     private bool reloading;
+    public Transform Magazine => magazine;
+    public bool IsPumpAction => pumpAction;
 
     private void Awake()
     {
@@ -32,8 +34,8 @@ public sealed class WeaponMechanism : MonoBehaviour
         if (magazine != null && reloading)
         {
             float t = Mathf.Clamp01((Time.time - reloadStart) / reloadDuration);
-            float amount = Mathf.Sin(Mathf.Clamp01((t - .12f) / .76f) * Mathf.PI);
-            magazine.localPosition = magazineRest + magazine.parent.InverseTransformDirection(-transform.up) * (amount * .13f);
+            float amount = WeaponReloadMotion.MagazineTravel(t);
+            magazine.localPosition = magazineRest + magazine.parent.InverseTransformDirection(-transform.up) * (amount * .16f);
             if (t >= 1) StopReload();
         }
     }

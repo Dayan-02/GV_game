@@ -11,7 +11,7 @@ public static class Phase2Setup
 {
     private const string ScenePath = ExistingCityEnhancer.ScenePath;
 
-    [MenuItem("Tools/Zombie Outbreak/Phase 2/Set Up ZombieMap")]
+    [MenuItem("Tools/Dead city/Phase 2/Set Up ZombieMap")]
     public static void SetUpZombieMap()
     {
         CurrentGameScenePolicy.RejectLegacySceneGeneration();
@@ -168,7 +168,7 @@ public static class Phase2Setup
         data.ApplyModifiedPropertiesWithoutUndo();
     }
 
-    [MenuItem("Tools/Zombie Outbreak/Phase 2/Validate Active Scene")]
+    [MenuItem("Tools/Dead city/Phase 2/Validate Active Scene")]
     public static void ValidateSetup()
     {
         Scene scene = SceneManager.GetActiveScene();

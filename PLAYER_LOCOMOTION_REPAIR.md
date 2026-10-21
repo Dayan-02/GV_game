@@ -19,7 +19,7 @@ No additional Unity package or downloaded animation is required. Existing free-a
 
 ## Authoring and settings
 
-Menu: **Tools > Dead Zone > Repair player locomotion**.
+Menu: **Tools > Dead city > Repair player locomotion**.
 
 - `Assets/Editor/Art/PlayerLocomotionRepair.cs` generates and applies the corrected clips/controllers.
 - `Assets/Scripts/Player/HumanoidFootPlacement.cs` consumes contact curves and limits terrain corrections.

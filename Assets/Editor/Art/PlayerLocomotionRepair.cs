@@ -14,7 +14,7 @@ using Object = UnityEngine.Object;
 public static class PlayerLocomotionRepair
 {
     public const string Root = "Assets/Animations/PlayerGrounded";
-    [MenuItem("Tools/Dead Zone/Repair player locomotion")]
+    [MenuItem("Tools/Dead city/Repair player locomotion")]
     public static void Apply()
     {
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Stop Play Mode first.");

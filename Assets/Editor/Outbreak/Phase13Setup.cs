@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Phase13Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 13 - Five waves")]
+    [MenuItem("Dead city/Phase 13 - Five waves")]
     public static void Build()
     {
         OutbreakEditor.Open();

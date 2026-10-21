@@ -21,6 +21,7 @@ public static class OpeningVideoSetup
 
     public static void BuildWindows()
     {
+        PlayerSettings.productName = GameBrandingSetup.ProductName;
         ConfigureSceneFlow();
         var scenes = EditorBuildSettings.scenes.Where(s => s.enabled)
             .Select(s => s.path == OutbreakEditor.Scene ? ExistingCityEnhancer.ScenePath : s.path).Distinct().ToArray();
@@ -29,12 +30,12 @@ public static class OpeningVideoSetup
         Directory.CreateDirectory("Builds/Windows");
         var result = BuildPipeline.BuildPlayer(new BuildPlayerOptions {
             scenes = scenes, target = BuildTarget.StandaloneWindows64,
-            locationPathName = "Builds/Windows/ZombieOutbreak.exe", options = BuildOptions.None });
+            locationPathName = "Builds/Windows/DeadCity.exe", options = BuildOptions.None });
         File.WriteAllText("Logs/OpeningVideoBuild.txt", result.summary.result + "\nErrors: " + result.summary.totalErrors + "\nWarnings: " + result.summary.totalWarnings);
         if (result.summary.result != UnityEditor.Build.Reporting.BuildResult.Succeeded) throw new Exception("Opening video build failed.");
     }
 
-    [MenuItem("Tools/Dead Zone/Use current game scene flow")]
+    [MenuItem("Tools/Dead city/Use current game scene flow")]
     public static void ConfigureSceneFlow()
     {
         string[] paths = { ScenePath, "Assets/Scenes/MainMenu.unity", "Assets/Scenes/Loadout.unity", ExistingCityEnhancer.ScenePath };
@@ -46,7 +47,7 @@ public static class OpeningVideoSetup
         EditorBuildSettings.scenes = paths.Select(path => new EditorBuildSettingsScene(path, true)).ToArray();
     }
 
-    [MenuItem("Tools/Dead Zone/Create opening video scene")]
+    [MenuItem("Tools/Dead city/Create opening video scene")]
     public static void Install()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Leave Play Mode first.");
@@ -65,7 +66,7 @@ public static class OpeningVideoSetup
         var title = Node("Title reveal", canvas.transform).gameObject.AddComponent<CanvasGroup>();
         title.alpha = 0;
         Text(title.transform, "Chapter", "SECTOR 07 / QUARANTINE ZONE", 22, 66, new Color(.55f,.72f,.64f));
-        Text(title.transform, "Title", "ZOMBIE OUTBREAK", 76, -4, new Color(.91f,.92f,.86f));
+        Text(title.transform, "Title", "DEAD CITY", 76, -4, new Color(.91f,.92f,.86f));
         Text(title.transform, "Tagline", "THE CITY FELL. YOU HAVEN'T.", 22, -75, new Color(.74f,.77f,.73f));
         var hint = Text(canvas.transform, "Skip", "SPACE / ENTER / ESC / CLICK TO SKIP", 18, 0, new Color(.65f,.69f,.67f));
         hint.rectTransform.anchorMin = hint.rectTransform.anchorMax = new Vector2(.5f,0);

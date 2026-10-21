@@ -20,7 +20,7 @@ public static class ReferenceCityBuild
         var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
         {
             scenes = scenes,
-            locationPathName = "Builds/Windows/ZombieOutbreak.exe",
+            locationPathName = "Builds/Windows/DeadCity.exe",
             target = BuildTarget.StandaloneWindows64,
             options = BuildOptions.None
         });

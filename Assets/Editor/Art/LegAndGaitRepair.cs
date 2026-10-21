@@ -12,7 +12,7 @@ using Object = UnityEngine.Object;
 public static class LegAndGaitRepair
 {
     private const string Root = "Assets/Animations/GroundedEnemies";
-    [MenuItem("Zombie Outbreak/Art/Repair player feet and zombie locomotion")]
+    [MenuItem("Dead city/Art/Repair player feet and zombie locomotion")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode first.");

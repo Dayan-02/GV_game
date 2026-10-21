@@ -17,7 +17,7 @@ public static class InfectedLocomotionSetup
     private const string Grounded = "Assets/Animations/GroundedEnemies";
     private static readonly string[] Kinds = { "Hunter", "Runner", "Ambusher", "Elite" };
 
-    [MenuItem("Tools/Dead Zone/Author infected locomotion")]
+    [MenuItem("Tools/Dead city/Author infected locomotion")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Leave Play Mode first.");

@@ -1,0 +1,214 @@
+{
+  "revision": "SculptTextureRevision4",
+  "backup": "D:\\GV project\\Backups\\Sculpt4Import-20261020-200541",
+  "files": [
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Models\\Hunter_Animated.fbx",
+      "sha256": "325f04953ad5e503288dd5d04b4e1c282582138f048edbcfcd4b4d75b357a68b"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Hunter_BaseColor.png",
+      "sha256": "10b3c980a9466e1e71c6993dd0e3a490b6ca88f32c53ef9737abba66e9f38124",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Hunter_BaseColor_4K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Hunter_Normal.png",
+      "sha256": "5c7ce51b6c933dbc753167de882c62fc4e1b0e41afd4d9d61f166239f8cef61d",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Hunter_Normal_2K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Hunter_MetallicSmoothness.png",
+      "sha256": "b2f766da20d37fe7c1e57e272bbd3116519e6aa39062892480cafee483872303",
+      "conversion": "R=metallic; A=1-roughness; linear"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Models\\Runner_Animated.fbx",
+      "sha256": "7e6cde65c9a22c38ea2cb1dedde1e3ed73d7359dd10cadf1d8b69cd1f12b232f"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Runner_BaseColor.png",
+      "sha256": "82046db099395197a68df3d88e683bcf819174dc4276ba9acc4feee92355da59",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Runner_BaseColor_4K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Runner_Normal.png",
+      "sha256": "9d17ac15af7d0bce27a4827e0ca8400dac83854e2374f04edbf30ec386bec77a",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Runner_Normal_2K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Runner_MetallicSmoothness.png",
+      "sha256": "7d51eace91996bf7ce590de1e3f063571d7d7b4db28d68b9378094a0d69b60ea",
+      "conversion": "R=metallic; A=1-roughness; linear"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Models\\Ambusher_Animated.fbx",
+      "sha256": "10d2eb1aac5fd186518b64cc0e848bd34c603277bacddada9e7064fa34790593"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Ambusher_BaseColor.png",
+      "sha256": "16a90d913a0e5e743062e86a9996247967f5b9f7b8dfb59b4f2c5d350f47d0bb",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Ambusher_BaseColor_4K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Ambusher_Normal.png",
+      "sha256": "d7214a8f0c7d8b812aabc6f104ae99618c0ae4816ecd25caebea9c472ed6520a",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Ambusher_Normal_2K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Ambusher_MetallicSmoothness.png",
+      "sha256": "e8fc43624e2db0a35523d694bf2229133a86644e97ce7a598fa32a689287058b",
+      "conversion": "R=metallic; A=1-roughness; linear"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Models\\Elite_Animated.fbx",
+      "sha256": "42abc3085e905ae6365e458332ce1855201eb95a26792d3d46ecb79f906f4366"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Elite_BaseColor.png",
+      "sha256": "f62f7b361c3d6df1eb29e65ad21a4a725bca8e747b94deb2bc237dba077bd6b4",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Elite_BaseColor_4K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Elite_Normal.png",
+      "sha256": "e41a38c6a15cfa951bd748962272032ca3cd221ad3ca7047f3a0ead09a346e6b",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Textures\\Elite_Normal_2K.png"
+    },
+    {
+      "path": "Assets\\Art\\CustomEnemies\\Textures\\Sculpt4\\Elite_MetallicSmoothness.png",
+      "sha256": "8def6ea037bb2483dcbca7c3de1681271159ebc279e219caba24b6322cb2570e",
+      "conversion": "R=metallic; A=1-roughness; linear"
+    }
+  ],
+  "protected_files": {
+    "Assets\\Art\\CustomEnemies\\Controllers\\Ambusher.controller": "ecb0b103a2425de3813f66487f2000cf44ec8cce9b7a047c5f072c94932e9f1b",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Ambusher.controller.meta": "8f8772fb21e21d1ab29a78024339b519130ec0a45efc6ce3e883e44f335fad99",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Elite.controller": "c553d0a3db54f90ce49a090a5843a80addf6608e30267f9a6d7d8473a4e04793",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Elite.controller.meta": "5a4eb28af6d73484990294aa07d9b472e65b2e0d66dae4b42a79a055a133b6d4",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Hunter.controller": "91203cae648f0979cc674130f392ce1395641bee850b8e1560f52f897e60a3da",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Hunter.controller.meta": "02a5c4ce12d689a509e176905a6ffa30ddf2b13812422057c53a79cc45bf4524",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Runner.controller": "a86a55d2627e253e29e58bc1595aafa794c4083482592150843db0257456bd30",
+    "Assets\\Art\\CustomEnemies\\Controllers\\Runner.controller.meta": "32c8e75bc694c2ef151479bc106209fbaf80b55f11f7a9da85727aa607b35529",
+    "Assets\\Scripts\\AI\\.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "Assets\\Scripts\\AI\\Ambusher.meta": "02be838a0ca1cb4caafcf7637d0e97a8fea26a7de63ef3ea6774ae58aadb0d44",
+    "Assets\\Scripts\\AI\\Elite.meta": "71ce30388bdb7c04c3713a1a95960c9fb2ae2e803a3ca7a399d04ce46a28e0cf",
+    "Assets\\Scripts\\AI\\Hunter.meta": "2d00f956496f575dad7ace25d4e05025a4a1910f822033e6c48e7e00b1320a38",
+    "Assets\\Scripts\\AI\\Runner.meta": "7f1d35dc3b0c0718a96ac3fe153d2f0a132bcfe1c5c65dc76ab11afb69e76455",
+    "Assets\\Scripts\\AI\\Shared.meta": "4fb2aac92dfa5730b6ec68e9256ea41fb84eb129701eb6fa4bf7b40b44f4dfdb",
+    "Assets\\Scripts\\AI\\Ambusher\\AmbusherBrain.cs": "f85c457227991ffc750ceebafbaa78d3b53d0b12698087f3de84beec13d2ae36",
+    "Assets\\Scripts\\AI\\Ambusher\\AmbusherBrain.cs.meta": "01de20739d176a42c19d5f25ec7bd4426cd82885d6bbfaba95987cfd4f16ca5a",
+    "Assets\\Scripts\\AI\\Elite\\EliteBrain.cs": "1bf2e2b60f103896885f77c079646d159b3b5d0602203b6f701944989752cf8a",
+    "Assets\\Scripts\\AI\\Elite\\EliteBrain.cs.meta": "4f93665795eb49b0abecb7965e522f43a8b8468fc65ef2aebedae9c1b95da7f3",
+    "Assets\\Scripts\\AI\\Hunter\\HunterBrain.cs": "1b10b178eada79df3e7c41466a99e28eacd908ea11c32323eed457bd9d8ff212",
+    "Assets\\Scripts\\AI\\Hunter\\HunterBrain.cs.meta": "a21ba68b2888d0775e9a781f93ff66e039d057195688352417535ed21666a071",
+    "Assets\\Scripts\\AI\\Hunter\\HunterNavigationGraph.cs": "43b3df6c7a55498a81fe4bac09a32c68a65306a10ab60f987c4c29a6d298a9c9",
+    "Assets\\Scripts\\AI\\Hunter\\HunterNavigationGraph.cs.meta": "f75e9d4bf0b091306243c453aa5ca950cab22c600d57de8a9a38a9bb3c2ea000",
+    "Assets\\Scripts\\AI\\Runner\\RunnerBrain.cs": "a8e0f2579f83fa749d33e3abc6290f2a74a2d73997f26d037924735da8d27697",
+    "Assets\\Scripts\\AI\\Runner\\RunnerBrain.cs.meta": "7bb7e35ae0b965df1fac997dc8798fef4b474a46701f2df72998492370a3b3fa",
+    "Assets\\Scripts\\AI\\Shared\\EnemyActor.cs": "ed0927a33f1ceb0d5102b981afce21f66c60e380bc906e3dbf4ec39d025a2326",
+    "Assets\\Scripts\\AI\\Shared\\EnemyActor.cs.meta": "fa6d6e433bbe3b82852b954245225ffb845f4bda2eed0c57f5de95dba6bee091",
+    "Assets\\Scripts\\AI\\Shared\\EnemyAnimationController.cs": "36307b49c60b60de027a6573f7ecba7890e78075992bfd3775eca12f9db28b60",
+    "Assets\\Scripts\\AI\\Shared\\EnemyAnimationController.cs.meta": "23ea84f2d9f2a0dd496cd2cfe21a107afe327dcbf242ca4c38819791142fa195",
+    "Assets\\Scripts\\AI\\Shared\\EnemyCombat.cs": "e803c0b30e933d3c072c074592cb588f1d27c96ac767a23ee6bbb27178d63d59",
+    "Assets\\Scripts\\AI\\Shared\\EnemyCombat.cs.meta": "090bdcd6f4b00c5b1db73060591939b9c2f5c97ca0446fe0494cda7e79fb322a",
+    "Assets\\Scripts\\AI\\Shared\\EnemyHealth.cs": "befe4bc3de593fc5aa9f002fed695f96ba69f5e4068ded44aa8bc1f1c90b65f4",
+    "Assets\\Scripts\\AI\\Shared\\EnemyHealth.cs.meta": "a6ca4de72bdb71dafc9756c5731820c2ba5b9b623cac0e0337cbc3aec76acd37",
+    "Assets\\Scripts\\AI\\Shared\\EnemyMovement.cs": "e02a660fd9e0e1141be74a9ff48e3961ce2e255c7985f0469b991d0fb1704eaa",
+    "Assets\\Scripts\\AI\\Shared\\EnemyMovement.cs.meta": "ba3d68672bc7012baccd998327abc92c1deb1ac66a268d14d6d27a3d3b8c144d",
+    "Assets\\Scripts\\AI\\Shared\\EnemyPerception.cs": "b1ce0edf4fbd2f8a4bee5392b25352352d538e2a3f33ca6e53268e8409b5ad6d",
+    "Assets\\Scripts\\AI\\Shared\\EnemyPerception.cs.meta": "ef30bc8c73784a2323422e531b394471fc6848f4ebd1ac7c9571607c69a84680",
+    "Assets\\Scripts\\AI\\Shared\\EnemyWorld.cs": "eb96376085d51d2c3418e5047251d0d61298d40038ccfb67eba13b0954c5b045",
+    "Assets\\Scripts\\AI\\Shared\\EnemyWorld.cs.meta": "04b21e46a01a44b7945173addb20243af74b19f2f6b72878d4a6456f30191496"
+  },
+  "source_export_receipt": [
+    {
+      "character": "Hunter",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Hunter_Sculpt4.blend",
+      "source_sha256": "8c8be82c6d46655568946a822e62e11445b38a266114d30493cdabd8e0c18c38",
+      "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Hunter_Animated.fbx",
+      "export_sha256": "325f04953ad5e503288dd5d04b4e1c282582138f048edbcfcd4b4d75b357a68b",
+      "uv0": "AtlasUV",
+      "materials": [
+        "Hunter_Sculpt4_PBR_Atlas"
+      ],
+      "actions": [
+        "Hunter_Attack",
+        "Hunter_Chase",
+        "Hunter_Death",
+        "Hunter_Hit",
+        "Hunter_Idle",
+        "Hunter_Stagger",
+        "Hunter_TurnLeft",
+        "Hunter_TurnRight",
+        "Hunter_Walk"
+      ]
+    },
+    {
+      "character": "Runner",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Runner_Sculpt4.blend",
+      "source_sha256": "19ebebc678fc923c2384109c656425e1a29475d7e19a5b0d1091bb972af810aa",
+      "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Runner_Animated.fbx",
+      "export_sha256": "7e6cde65c9a22c38ea2cb1dedde1e3ed73d7359dd10cadf1d8b69cd1f12b232f",
+      "uv0": "AtlasUV",
+      "materials": [
+        "Runner_Sculpt4_PBR_Atlas"
+      ],
+      "actions": [
+        "Runner_Attack",
+        "Runner_Chase",
+        "Runner_Death",
+        "Runner_Hit",
+        "Runner_Idle",
+        "Runner_Stagger",
+        "Runner_TurnLeft",
+        "Runner_TurnRight",
+        "Runner_Walk"
+      ]
+    },
+    {
+      "character": "Ambusher",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Ambusher_Sculpt4.blend",
+      "source_sha256": "0d069b98c2fda7da0b9d8c11197978083ec6a1febc14a39f54b7e990a23c5f7b",
+      "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Ambusher_Animated.fbx",
+      "export_sha256": "10d2eb1aac5fd186518b64cc0e848bd34c603277bacddada9e7064fa34790593",
+      "uv0": "AtlasUV",
+      "materials": [
+        "Ambusher_Sculpt4_PBR_Atlas"
+      ],
+      "actions": [
+        "Ambusher_Attack",
+        "Ambusher_Chase",
+        "Ambusher_Death",
+        "Ambusher_Hit",
+        "Ambusher_Idle",
+        "Ambusher_Stagger",
+        "Ambusher_TurnLeft",
+        "Ambusher_TurnRight",
+        "Ambusher_Walk"
+      ]
+    },
+    {
+      "character": "Elite",
+      "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Elite_Sculpt4.blend",
+      "source_sha256": "ea3db92b74ae6e8276efcd665c66574c6ef06ce2c12a532c8549f69aef37bdbf",
+      "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Elite_Animated.fbx",
+      "export_sha256": "42abc3085e905ae6365e458332ce1855201eb95a26792d3d46ecb79f906f4366",
+      "uv0": "AtlasUV",
+      "materials": [
+        "Elite_Sculpt4_PBR_Atlas"
+      ],
+      "actions": [
+        "Elite_Attack",
+        "Elite_Chase",
+        "Elite_Death",
+        "Elite_HeavyAttack",
+        "Elite_Hit",
+        "Elite_Idle",
+        "Elite_Stagger",
+        "Elite_TurnLeft",
+        "Elite_TurnRight",
+        "Elite_Walk"
+      ]
+    }
+  ],
+  "provenance": "Project-owned AI-assisted Blender models and generated texture sources; native Unity import."
+}

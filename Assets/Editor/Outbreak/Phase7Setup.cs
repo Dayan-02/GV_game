@@ -8,7 +8,7 @@ public static class Phase7Setup
 {
     public const string BasePrefab = "Assets/Prefabs/Enemies/EnemyBase.prefab";
     public const string ControllerPath = "Assets/Animations/Enemies/Enemy.controller";
-    [MenuItem("Zombie Outbreak/Phase 7 - Shared enemies")]
+    [MenuItem("Dead city/Phase 7 - Shared enemies")]
     public static void Build()
     {
         OutbreakEditor.Open();

@@ -43,7 +43,7 @@ Generated assets are under **D:/GV project/Assets/Art/EnemyIdentity/**, with Mes
 
 On each enemy, EnemyAnimationController has **Attack Clip** and **Heavy Attack Clip** assigned. EnemyCombat's **Contact Normalized Time** is 0.56. Keep the animation contact point and this value matched when replacing a clip. The four AI scripts remain responsible for deciding when to attack; no AI types were merged or removed.
 
-To regenerate in Edit Mode: **Zombie Outbreak → Enemies → Apply distinct identities and attacks**. The saved assets are already configured. Restart Play Mode to replace enemies spawned before the asset update. Scene spawning references the same four prefab paths.
+To regenerate in Edit Mode: **Dead city → Enemies → Apply distinct identities and attacks**. The saved assets are already configured. Restart Play Mode to replace enemies spawned before the asset update. Scene spawning references the same four prefab paths.
 
 ## Review and common issues
 
@@ -58,7 +58,7 @@ The first authoring preview exposed clothing clipping; fitted skinned torso clot
 
 ## Delivery
 
-Build result: **D:/GV project/Logs/EnemyIdentityBuildSummary.txt**. Run **D:/GV project/Builds/Windows/ZombieOutbreak.exe** with its accompanying files, or extract **D:/GV project/Builds/ZombieOutbreak-Windows.zip**.
+Build result: **D:/GV project/Logs/EnemyIdentityBuildSummary.txt**. Run **D:/GV project/Builds/Windows/DeadCity.exe** with its accompanying files, or extract **D:/GV project/Builds/ZombieOutbreak-Windows.zip**.
 
 Windows x64 build succeeded with **0 errors, 1 warning**, **483,804,492 bytes**, in **35.610 seconds**. The warning disables the optional Pipeline connection in the standalone player.
 

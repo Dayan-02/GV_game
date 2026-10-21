@@ -19,7 +19,7 @@ public static class ReclaimedCityPresentation
     private static readonly StringBuilder report=new StringBuilder();
     private static float Rand(float lo,float hi)=>Mathf.Lerp(lo,hi,(float)random.NextDouble());
 
-    [MenuItem("Tools/Dead Zone/Apply reclaimed city presentation")]
+    [MenuItem("Tools/Dead city/Apply reclaimed city presentation")]
     public static void Apply()
     {
         if(EditorApplication.isPlaying)throw new InvalidOperationException("Leave Play Mode first.");

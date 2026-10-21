@@ -54,7 +54,7 @@ Player
 
 ## Authoring safely
 
-Run **Zombie Outbreak > Art > Apply character textures weapons and motion** in Edit Mode. This command overwrites the generated appearance and clips, so preserve custom edits before rerunning. It skips character models without the generated GreyboxMesh parts. Run it after the earlier city/clothing setup commands if you use those historical tools again.
+Run **Dead city > Art > Apply character textures weapons and motion** in Edit Mode. This command overwrites the generated appearance and clips, so preserve custom edits before rerunning. It skips character models without the generated GreyboxMesh parts. Run it after the earlier city/clothing setup commands if you use those historical tools again.
 
 The prior character/weapon prefabs, animations, scene and city materials were archived at `Builds/Backups/BeforeCharacterTextures.zip` before applying this update. This is a selective backup, not a complete project archive. Existing `.meta` files on the live assets are retained.
 

@@ -1,4 +1,4 @@
-# Zombie Outbreak — run and setup guide
+# Dead city — run and setup guide
 
 ## Start the game
 
@@ -7,7 +7,7 @@
 3. Select **Prepare Loadout**, choose Rifle, SMG or Shotgun, choose an equipment pack, then select **Enter the District**.
 4. Survive five waves. Wave five contains the Elite. Pause, Game Over and Victory have restart and Main Menu controls.
 
-A generated Windows player, when built, is `Builds/Windows/ZombieOutbreak.exe`. Keep the entire Windows folder together; the EXE needs its Data folder and Unity runtime files. Builds are deliberately excluded from Git.
+A generated Windows player, when built, is `Builds/Windows/DeadCity.exe`. Keep the entire Windows folder together; the EXE needs its Data folder and Unity runtime files. Builds are deliberately excluded from Git.
 
 ## Controls
 

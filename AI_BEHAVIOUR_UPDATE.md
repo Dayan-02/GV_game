@@ -68,13 +68,13 @@ Aim at an enemy and press F3. The inspector now includes:
 
 ## Validation and human review
 
-Run **Zombie Outbreak > AI > Run isolated behavior validation** outside Play Mode. It uses a temporary scene with a real flat NavMesh and the actual four enemy prefabs, then restores the original scene. Results are written to Logs/AIBehaviorValidation.txt. This is deliberately separate from the authored level.
+Run **Dead city > AI > Run isolated behavior validation** outside Play Mode. It uses a temporary scene with a real flat NavMesh and the actual four enemy prefabs, then restores the original scene. Results are written to Logs/AIBehaviorValidation.txt. This is deliberately separate from the authored level.
 
 The checks cover sensory knowledge, memory expiry, multiple hearing events, wall-blocked strikes, early/duplicate impact rejection, cooldowns, group attack limits, reservation cleanup, configurable Runner attack range, real Runner movement/recovery, A* routing, blocked movement and a mixed 20-enemy encounter.
 
 The implementation passed 30 isolated checks. An additional 15-second city integration check passed six assertions with a peak of 24 living enemies and two committed attackers. It checked actual city navigation, FPS weapon initialization and mixed enemy execution without runtime exceptions. Reports: Logs/AIBehaviorValidation.txt and Logs/AICityValidation.txt. This was not a complete five-wave balance run.
 
-Windows build: succeeded with zero errors and one optional Pipeline warning (483,818,492 bytes; 43.935 seconds). The updated executable is Builds/Windows/ZombieOutbreak.exe; the complete distribution is Builds/ZombieOutbreak-Windows.zip.
+Windows build: succeeded with zero errors and one optional Pipeline warning (483,818,492 bytes; 43.935 seconds). The updated executable is Builds/Windows/DeadCity.exe; the complete distribution is Builds/ZombieOutbreak-Windows.zip.
 
 For a human review in the enhanced ZombieMap:
 

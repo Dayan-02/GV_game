@@ -18,7 +18,7 @@ public sealed class CurrentGameScenePolicy : IPreprocessBuildWithReport, IProces
     {
         string[] expected = { OpeningVideoSetup.ScenePath, "Assets/Scenes/MainMenu.unity", "Assets/Scenes/Loadout.unity", ExistingCityEnhancer.ScenePath };
         if (!EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).SequenceEqual(expected))
-            throw new BuildFailedException("Incorrect game scene list. Use Tools > Dead Zone > Use current game scene flow.");
+            throw new BuildFailedException("Incorrect game scene list. Use Tools > Dead city > Use current game scene flow.");
     }
     public void OnProcessScene(Scene scene, BuildReport report)
     {

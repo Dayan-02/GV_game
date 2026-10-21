@@ -23,7 +23,7 @@ Reused photographic Poly Haven brick, cracked concrete, asphalt, paving, wood an
 
 ## Reusable tools and assets
 
-Menu: **Tools > Dead Zone > Enhance Existing City**. Run from the original scene to create a safe copy, or open the enhanced copy. An existing enhancement root is retained without generating duplicates. Adjust authored objects directly after the first pass.
+Menu: **Tools > Dead city > Enhance Existing City**. Run from the original scene to create a safe copy, or open the enhanced copy. An existing enhancement root is retained without generating duplicates. Adjust authored objects directly after the first pass.
 
 Authoring code: `Assets/Editor/Art/ExistingCityEnhancer.cs`. Shader sources: `Assets/Shaders/OvercastCitySky.shader` and `CityWearDecal.shader`. Prefabs: `Assets/Art/ReferenceCity/Prefabs/` includes abandoned vehicle, dumpster, dead tree and warehouse upper tenement. Materials, meshes, wear mask and navigation data are in the same art folder.
 

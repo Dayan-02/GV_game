@@ -6,7 +6,7 @@
 
 The current city is **Assets/Scenes/EnhancedCity/ZombieMap.unity**. This is the scene left open in Unity. The similarly named **Assets/Scenes/ZombieMap.unity** is the original map and does not contain this presentation pass. The Windows player uses the enhanced scene.
 
-Run **Builds/Windows/ZombieOutbreak.exe**, keeping its complete folder together, or open the enhanced scene in Unity and press Play. For the full menu/loadout flow, open Assets/Scenes/MainMenu.unity.
+Run **Builds/Windows/DeadCity.exe**, keeping its complete folder together, or open the enhanced scene in Unity and press Play. For the full menu/loadout flow, open Assets/Scenes/MainMenu.unity.
 
 ## Changes
 

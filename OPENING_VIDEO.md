@@ -29,7 +29,7 @@ The actual city scene is never saved during capture. To regenerate, run `Opening
 
 ## Build and review
 
-`OpeningVideoSetup.BuildWindows` configures the current scene flow and builds it. Build output is `Builds/Windows/ZombieOutbreak.exe`; keep the complete Windows folder together. The separate older ZIP has been deleted.
+`OpeningVideoSetup.BuildWindows` configures the current scene flow and builds it. Build output is `Builds/Windows/DeadCity.exe`; keep the complete Windows folder together. The separate older ZIP has been deleted.
 
 Native compilation, render production and video encoding are checked during authoring. No automated gameplay tests or manual playback/skip playthrough were run for this change.
 

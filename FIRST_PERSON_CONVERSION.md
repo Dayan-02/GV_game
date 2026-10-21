@@ -33,7 +33,7 @@ Complete current C# code is in [CURRENT_SOURCE.md](<D:/GV project/CURRENT_SOURCE
 | [PlayerHudPresenter.cs](<D:/GV project/Assets/Scripts/UI/PlayerHudPresenter.cs>) | Shows the crosshair for hip fire and aiming; hides it during reload, pause and death. Existing event subscriptions still drive HUD updates. |
 | [PlayerEquipment.cs](<D:/GV project/Assets/Scripts/Player/PlayerEquipment.cs>) | Grenades originate at the FPS eye position, including crouch. Resolves scene camera once on initialization. |
 | [PlayerInteractor.cs](<D:/GV project/Assets/Scripts/Player/PlayerInteractor.cs>) | Resolves the scene camera when the new player prefab is instantiated. Existing interaction behavior is retained. |
-| [FirstPersonSetup.cs](<D:/GV project/Assets/Editor/Art/FirstPersonSetup.cs>) | Native Unity asset/scene authoring utility. Menu: Zombie Outbreak → First Person → Apply to Enhanced City. The saved scene is already configured. |
+| [FirstPersonSetup.cs](<D:/GV project/Assets/Editor/Art/FirstPersonSetup.cs>) | Native Unity asset/scene authoring utility. Menu: Dead city → First Person → Apply to Enhanced City. The saved scene is already configured. |
 
 ## Saved hierarchy
 
@@ -70,7 +70,7 @@ No new packages or downloads were added. This uses the existing Built-in Render 
 
 ## Preview and review limits
 
-- Windows x64 build succeeded with **0 errors and 1 warning**; see **D:/GV project/Logs/FirstPersonBuildSummary.txt**. Run **D:/GV project/Builds/Windows/ZombieOutbreak.exe** locally or extract the entire **D:/GV project/Builds/ZombieOutbreak-Windows.zip** on another Windows PC.
+- Windows x64 build succeeded with **0 errors and 1 warning**; see **D:/GV project/Logs/FirstPersonBuildSummary.txt**. Run **D:/GV project/Builds/Windows/DeadCity.exe** locally or extract the entire **D:/GV project/Builds/ZombieOutbreak-Windows.zip** on another Windows PC.
 - [Game View with the rifle, arms and HUD](<D:/GV project/Previews/FirstPerson/FirstPerson-Hip.png>) is captured from Play Mode.
 - [Rifle aiming pose](<D:/GV project/Previews/FirstPerson/Aim-Pose.png>) is an authoring still with the aim offset and arm grips applied, not a recorded mouse-input sequence.
 - Existing locomotion clips, city layout, removed bridge, enemy types, loadout, waves and menus are retained. The original **Assets/Scenes/ZombieMap.unity** remains the earlier third-person scene; use the enhanced scene for FPS.

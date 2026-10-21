@@ -1,0 +1,54 @@
+[
+  {
+    "kind": "Hunter",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Hunter_Sculpt4.blend",
+    "source_sha256": "8c8be82c6d46655568946a822e62e11445b38a266114d30493cdabd8e0c18c38",
+    "blend": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Blender\\Hunter_DeathRevision.blend",
+    "export": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Exports\\Hunter_Deaths.fbx",
+    "actions": [
+      "Hunter_DeathForward",
+      "Hunter_DeathBack",
+      "Hunter_DeathSide"
+    ],
+    "duration": 2.4
+  },
+  {
+    "kind": "Runner",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Runner_Sculpt4.blend",
+    "source_sha256": "19ebebc678fc923c2384109c656425e1a29475d7e19a5b0d1091bb972af810aa",
+    "blend": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Blender\\Runner_DeathRevision.blend",
+    "export": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Exports\\Runner_Deaths.fbx",
+    "actions": [
+      "Runner_DeathForward",
+      "Runner_DeathBack",
+      "Runner_DeathSide"
+    ],
+    "duration": 2.2
+  },
+  {
+    "kind": "Ambusher",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Ambusher_Sculpt4.blend",
+    "source_sha256": "0d069b98c2fda7da0b9d8c11197978083ec6a1febc14a39f54b7e990a23c5f7b",
+    "blend": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Blender\\Ambusher_DeathRevision.blend",
+    "export": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Exports\\Ambusher_Deaths.fbx",
+    "actions": [
+      "Ambusher_DeathForward",
+      "Ambusher_DeathBack",
+      "Ambusher_DeathSide"
+    ],
+    "duration": 2.4
+  },
+  {
+    "kind": "Elite",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Elite_Sculpt4.blend",
+    "source_sha256": "ea3db92b74ae6e8276efcd665c66574c6ef06ce2c12a532c8549f69aef37bdbf",
+    "blend": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Blender\\Elite_DeathRevision.blend",
+    "export": "D:\\GV project\\ArtSource\\CombatPolish\\DeathRevision\\Exports\\Elite_Deaths.fbx",
+    "actions": [
+      "Elite_DeathForward",
+      "Elite_DeathBack",
+      "Elite_DeathSide"
+    ],
+    "duration": 2.65
+  }
+]

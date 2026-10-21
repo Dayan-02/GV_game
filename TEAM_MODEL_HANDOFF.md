@@ -27,8 +27,8 @@ The project creates an empty catalog at `Assets/Data/TeamArtCatalog.asset` and t
 1. Import the authored FBX files and create visual-only prefabs. Keep root transforms at scale 1. The zombie prefab must have a valid Humanoid Avatar, a skinned mesh with materials, and no duplicate movement or root physics. Assign the shared `Assets/Animations/Enemies/Enemy.controller`.
 2. The barricade prefab must have a Renderer and no colliders, Rigidbody or NavMesh components. The existing gameplay barricade retains those components. Optional debris can be assigned separately.
 3. Assign the prefabs in `Assets/Data/TeamArtCatalog.asset`; record the actual author/team and source project path. Mark `modelsAuthoredByTeam` only when that statement is accurate.
-4. Run **Zombie Outbreak > Team Art > Validate supplied models**. Resolve each reported issue before applying.
-5. Run **Zombie Outbreak > Team Art > Apply validated models to game**. It replaces the EnemyBase Visual child and barricade renderers, keeps shared gameplay components, then rebakes and validates navigation. Review scale, materials, variant tints, hit alignment and the four enemy animations in Play Mode.
+4. Run **Dead city > Team Art > Validate supplied models**. Resolve each reported issue before applying.
+5. Run **Dead city > Team Art > Apply validated models to game**. It replaces the EnemyBase Visual child and barricade renderers, keeps shared gameplay components, then rebakes and validates navigation. Review scale, materials, variant tints, hit alignment and the four enemy animations in Play Mode.
 
 If the catalog fields are empty, the existing greybox remains unchanged. Unity cannot verify who authored a model; retain native Blender/Maya files, work-in-progress evidence and accurate contribution records.
 ## Assessment evidence to complete honestly

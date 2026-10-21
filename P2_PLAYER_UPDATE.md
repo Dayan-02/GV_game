@@ -27,7 +27,7 @@ WASD move; Shift run; Ctrl sprint; Space jump; right mouse aim; left mouse fire;
 
 The player root retains its health, movement, weapon, camera-target and gameplay references. Its visual child is now `SurvivalistVisual`. The visual Animator has SupportHandGrip, ShooterBodyPose and HumanoidFootPlacement components.
 
-Use **Zombie Outbreak > Art > Apply selected P2 Survivalist player** to reproduce this assembly. The command saves open scenes, updates ZombieMap and the player prefab, and does not rebuild enemy prefabs. It requires the downloaded assets already present.
+Use **Dead city > Art > Apply selected P2 Survivalist player** to reproduce this assembly. The command saves open scenes, updates ZombieMap and the player prefab, and does not rebuild enemy prefabs. It requires the downloaded assets already present.
 
 The base Animator layer enables IK. Foot placement uses non-allocating physics queries and ignores colliders belonging to the player. Keep terrain colliders present and large obstacles within the controller's step/slope limits.
 

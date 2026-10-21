@@ -15,7 +15,7 @@ public static class ImportedCharacterSetup
     public const string Soldier = Root + "/Rocketbox/Military_Male_01.fbx";
     public const string Zombie = Root + "/PixelhouseZombie/walk.FBX";
 
-    [MenuItem("Zombie Outbreak/Art/Apply imported people and zombies")]
+    [MenuItem("Dead city/Art/Apply imported people and zombies")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode before changing models.");

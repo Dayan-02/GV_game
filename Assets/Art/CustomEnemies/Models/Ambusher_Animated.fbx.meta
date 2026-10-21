@@ -3,7 +3,12 @@ guid: f9b0ec95c493bec4ebdf8d516613b136
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ambusher_Sculpt4_PBR_Atlas
+    second: {fileID: 2100000, guid: 027b2738a8b0742479ee401c0d00e968, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

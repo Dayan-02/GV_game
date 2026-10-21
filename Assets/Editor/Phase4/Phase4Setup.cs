@@ -23,7 +23,7 @@ public static class Phase4Setup
         catch (Exception error) { Debug.LogException(error); EditorApplication.Exit(1); }
     }
 
-    [MenuItem("Tools/Zombie Outbreak/Phase 4/Set Up HUD and Panels")]
+    [MenuItem("Tools/Dead city/Phase 4/Set Up HUD and Panels")]
     public static void SetUp()
     {
         CurrentGameScenePolicy.RejectLegacySceneGeneration();
@@ -130,7 +130,7 @@ public static class Phase4Setup
         }
     }
 
-    [MenuItem("Tools/Zombie Outbreak/Phase 4/Validate HUD and Panels")]
+    [MenuItem("Tools/Dead city/Phase 4/Validate HUD and Panels")]
     public static void Validate()
     {
         Scene scene = SceneManager.GetActiveScene();

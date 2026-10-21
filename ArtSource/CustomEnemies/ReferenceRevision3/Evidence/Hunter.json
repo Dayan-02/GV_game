@@ -1,0 +1,23 @@
+{
+  "character": "Hunter",
+  "source": "D:\\GV project\\ArtSource\\CustomEnemies\\BlenderAnimationPass\\Blender\\Hunter_Animated.blend",
+  "source_sha256": "3a8c47112c9e15b772797cf039ca7e9b3355cc06da68c479ee03541f06fb3c4e",
+  "vertices": 40525,
+  "triangles": 78260,
+  "bones": 52,
+  "rest_pose_matches_source": true,
+  "unweighted_vertices": 0,
+  "actions": [
+    "Hunter_Walk",
+    "Hunter_TurnRight",
+    "Hunter_TurnLeft",
+    "Hunter_Stagger",
+    "Hunter_Idle",
+    "Hunter_Hit",
+    "Hunter_Death",
+    "Hunter_Chase",
+    "Hunter_Attack"
+  ],
+  "packed_images": 1,
+  "output_sha256": "a33f124df92c5e5a5846c271b48a6673634a24c339dc004dd2df92e79890f0ce"
+}

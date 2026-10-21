@@ -198,7 +198,7 @@ The first full-flow attempt caught missing menu catalog references; these were f
 ## Delivery checks before the city art update
 
 - **Latest Windows x64 build:** succeeded, **0 errors, 0 warnings**, 96,962,860 bytes reported by Unity. Build time 22.718 seconds. Evidence: `Logs/WindowsBuildTeamArt.log` and `Logs/WindowsBuildSummary.txt`.
-- **Executable:** `Builds/Windows/ZombieOutbreak.exe`. The complete Windows folder is also packaged as `Builds/ZombieOutbreak-Windows.zip`.
+- **Executable:** `Builds/Windows/DeadCity.exe`. The complete Windows folder is also packaged as `Builds/ZombieOutbreak-Windows.zip`.
 - **Packaged startup checks:** the executable initialized Direct3D 12 and PhysX and remained responsive for 259 seconds in the earlier check. After this update, a fresh hidden launch remained alive for 12 seconds and was then closed. These confirm startup, not a full standalone input-driven playthrough.
 - **Final post-build scene flow:** passed again in native Unity Play Mode using the final scenes and code. Evidence: `Logs/Phase17Final.log`. Includes exact counts, HUD events, Victory, restart and Game Over.
 - **Latest A* microbenchmark:** 60 searches, zero failures; **1.034 ms mean, 1.873 ms p95, 7.331 ms maximum**. This is a local Editor microbenchmark, not FPS.

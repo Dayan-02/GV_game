@@ -19,7 +19,7 @@ The initial backup is `Backups/BeforeCustomBlenderEnemies-20261018-161525`. It c
 
 1. Open the existing `D:/GV project` project in Unity Hub/Unity Editor and leave Play Mode.
 2. Allow the assets and editor scripts to import. Resolve any Console compile errors before proceeding.
-3. Choose **Tools > Dead Zone > Import custom Blender enemies**.
+3. Choose **Tools > Dead city > Import custom Blender enemies**.
 4. Wait for the `Custom Blender enemy integration` Console message and `Logs/CustomBlenderEnemyImport.txt`.
 5. The existing Hunter, Runner, Ambusher, Elite and EnemyBase prefab GUIDs are retained, so the current wave/spawn references continue to use them.
 

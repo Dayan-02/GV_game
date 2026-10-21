@@ -156,7 +156,7 @@ public static class Phase4UIFactory
         RectTransform content = Card(overlay, "Content", new Vector2(620, 460), new Vector2(0.5f, 0.5f), Vector2.zero);
         RectTransform line = Rect(content, "Accent", new Vector2(620, 4), new Vector2(0, 1), Vector2.zero);
         Picture(line, accent);
-        Label(content, "Eyebrow", "ZOMBIE OUTBREAK", 18, Muted, new Vector2(50, 382), new Vector2(520, 30), TextAlignmentOptions.Center);
+        Label(content, "Eyebrow", "DEAD CITY", 18, Muted, new Vector2(50, 382), new Vector2(520, 30), TextAlignmentOptions.Center);
         Label(content, "Title", title, 54, accent, new Vector2(50, 297), new Vector2(520, 75), TextAlignmentOptions.Center);
         Label(content, "Description", description, 23, Ink, new Vector2(50, 250), new Vector2(520, 42), TextAlignmentOptions.Center);
         return overlay;

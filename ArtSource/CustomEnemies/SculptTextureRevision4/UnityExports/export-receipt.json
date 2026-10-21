@@ -1,0 +1,91 @@
+[
+  {
+    "character": "Hunter",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Hunter_Sculpt4.blend",
+    "source_sha256": "8c8be82c6d46655568946a822e62e11445b38a266114d30493cdabd8e0c18c38",
+    "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Hunter_Animated.fbx",
+    "export_sha256": "325f04953ad5e503288dd5d04b4e1c282582138f048edbcfcd4b4d75b357a68b",
+    "uv0": "AtlasUV",
+    "materials": [
+      "Hunter_Sculpt4_PBR_Atlas"
+    ],
+    "actions": [
+      "Hunter_Attack",
+      "Hunter_Chase",
+      "Hunter_Death",
+      "Hunter_Hit",
+      "Hunter_Idle",
+      "Hunter_Stagger",
+      "Hunter_TurnLeft",
+      "Hunter_TurnRight",
+      "Hunter_Walk"
+    ]
+  },
+  {
+    "character": "Runner",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Runner_Sculpt4.blend",
+    "source_sha256": "19ebebc678fc923c2384109c656425e1a29475d7e19a5b0d1091bb972af810aa",
+    "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Runner_Animated.fbx",
+    "export_sha256": "7e6cde65c9a22c38ea2cb1dedde1e3ed73d7359dd10cadf1d8b69cd1f12b232f",
+    "uv0": "AtlasUV",
+    "materials": [
+      "Runner_Sculpt4_PBR_Atlas"
+    ],
+    "actions": [
+      "Runner_Attack",
+      "Runner_Chase",
+      "Runner_Death",
+      "Runner_Hit",
+      "Runner_Idle",
+      "Runner_Stagger",
+      "Runner_TurnLeft",
+      "Runner_TurnRight",
+      "Runner_Walk"
+    ]
+  },
+  {
+    "character": "Ambusher",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Ambusher_Sculpt4.blend",
+    "source_sha256": "0d069b98c2fda7da0b9d8c11197978083ec6a1febc14a39f54b7e990a23c5f7b",
+    "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Ambusher_Animated.fbx",
+    "export_sha256": "10d2eb1aac5fd186518b64cc0e848bd34c603277bacddada9e7064fa34790593",
+    "uv0": "AtlasUV",
+    "materials": [
+      "Ambusher_Sculpt4_PBR_Atlas"
+    ],
+    "actions": [
+      "Ambusher_Attack",
+      "Ambusher_Chase",
+      "Ambusher_Death",
+      "Ambusher_Hit",
+      "Ambusher_Idle",
+      "Ambusher_Stagger",
+      "Ambusher_TurnLeft",
+      "Ambusher_TurnRight",
+      "Ambusher_Walk"
+    ]
+  },
+  {
+    "character": "Elite",
+    "source": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\Blender\\Elite_Sculpt4.blend",
+    "source_sha256": "ea3db92b74ae6e8276efcd665c66574c6ef06ce2c12a532c8549f69aef37bdbf",
+    "export": "D:\\GV project\\ArtSource\\CustomEnemies\\SculptTextureRevision4\\UnityExports\\Elite_Animated.fbx",
+    "export_sha256": "42abc3085e905ae6365e458332ce1855201eb95a26792d3d46ecb79f906f4366",
+    "uv0": "AtlasUV",
+    "materials": [
+      "Elite_Sculpt4_PBR_Atlas"
+    ],
+    "actions": [
+      "Elite_Attack",
+      "Elite_Chase",
+      "Elite_Death",
+      "Elite_HeavyAttack",
+      "Elite_Hit",
+      "Elite_Idle",
+      "Elite_Stagger",
+      "Elite_TurnLeft",
+      "Elite_TurnRight",
+      "Elite_Walk"
+    ]
+  }
+]

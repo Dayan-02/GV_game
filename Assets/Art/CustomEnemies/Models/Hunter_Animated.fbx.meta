@@ -3,7 +3,12 @@ guid: 875730bbbedd4734e9d553861b3c82ef
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hunter_Sculpt4_PBR_Atlas
+    second: {fileID: 2100000, guid: 1c1b53f85220dd345955fc98ffd2735a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

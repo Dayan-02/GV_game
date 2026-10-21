@@ -14,7 +14,7 @@ public static class StealthReferenceDressing
     private static readonly System.Random random=new System.Random(22941);
     private static float Range(float a,float b)=>Mathf.Lerp(a,b,(float)random.NextDouble());
     private static Color Green()=>Color.Lerp(new Color(.085f,.16f,.035f),new Color(.26f,.35f,.075f),Range(0,1));
-    [MenuItem("Tools/Dead Zone/Apply stealth reference environment detail")]
+    [MenuItem("Tools/Dead city/Apply stealth reference environment detail")]
     public static void Apply()
     {
         if(EditorApplication.isPlaying)throw new Exception("Leave Play Mode first.");

@@ -25,7 +25,7 @@ The project stays on the Built-in Render Pipeline. No URP or Cinemachine migrati
 - `Assets/Scripts/Environment/CityCameraAtmosphere.cs`: camera grading and small bloom buffers.
 - `Assets/Shaders/WeatheredSurface.shader` and `CityAtmosphere.shader`: surface rendering and camera effect.
 
-Use **Zombie Outbreak > Art > Apply abandoned city art pass** in Edit Mode. It preserves an existing HorrorCity root rather than duplicating it, but resets authored lighting and shared material defaults. Save manual art experiments separately before running it. The initial scene layout is retained in `Assets/Scenes/ArtBackups/ZombieMap_BeforeCityArt.unity`; this is a scene backup, not a complete snapshot of shared prefabs/materials. Do not include it in Build Settings.
+Use **Dead city > Art > Apply abandoned city art pass** in Edit Mode. It preserves an existing HorrorCity root rather than duplicating it, but resets authored lighting and shared material defaults. Save manual art experiments separately before running it. The initial scene layout is retained in `Assets/Scenes/ArtBackups/ZombieMap_BeforeCityArt.unity`; this is a scene backup, not a complete snapshot of shared prefabs/materials. Do not include it in Build Settings.
 
 New decorative details have no collision. Existing walls, cover, doors, props, navigation and AI routes remain authoritative. If moving structures or adding substantial obstacles, add appropriate World-layer colliders and rebake/validate navigation. Keep decorative kerbs low and doorway openings clear.
 

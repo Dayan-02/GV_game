@@ -10,7 +10,7 @@ using Object = UnityEngine.Object;
 /// <summary>Native character/weapon art authoring. Leaves gameplay components and source rig transforms intact.</summary>
 public static class CharacterEquipmentArtPass
 {
-    [MenuItem("Zombie Outbreak/Art/Apply character textures weapons and motion")]
+    [MenuItem("Dead city/Art/Apply character textures weapons and motion")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode before applying art.");

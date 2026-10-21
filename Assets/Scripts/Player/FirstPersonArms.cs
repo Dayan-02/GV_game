@@ -32,12 +32,13 @@ public sealed class FirstPersonArms : MonoBehaviour
     {
         if (weapons == null || weapons.ActiveView == null || Time.deltaTime <= 0) return;
         var view = weapons.ActiveView;
-        Vector3 rightTarget = view.transform.TransformPoint(new Vector3(0, -.015f, -.025f));
+        Vector3 rightTarget = view.PrimaryHandPosition;
         Vector3 leftTarget = view.SupportHand != null ? view.SupportHand.position : view.transform.TransformPoint(new Vector3(-.04f, -.025f, .1f));
         if (weapons.IsReloading && rig != null)
         {
-            float amount = Mathf.Sin(Mathf.Clamp01((rig.ReloadProgress - .08f) / .84f) * Mathf.PI);
-            leftTarget = Vector3.Lerp(leftTarget, view.transform.TransformPoint(new Vector3(-.045f, -.15f, .1f)), amount);
+            // Follow the actual moving magazine, using the same timing as its mechanism.
+            float amount = WeaponReloadMotion.HandContact(rig.ReloadProgress);
+            leftTarget = Vector3.Lerp(leftTarget, view.ReloadHandPosition, amount);
         }
         Solve(right, rightTarget, view.transform.rotation, new Vector3(.7f, -.7f, -.15f));
         Solve(left, leftTarget, view.transform.rotation, new Vector3(-.7f, -.7f, -.15f));
@@ -51,7 +52,8 @@ public sealed class FirstPersonArms : MonoBehaviour
         float a = Vector3.Distance(start, arm.lower.position), b = Vector3.Distance(arm.lower.position, arm.hand.position);
         if (a < .001f || b < .001f) return;
         Vector3 delta = target - start;
-        float distance = Mathf.Clamp(delta.magnitude, Mathf.Abs(a - b) + .001f, a + b - .002f);
+        // A small bend reserve avoids an elbow snapping through a straight-arm singularity.
+        float distance = Mathf.Clamp(delta.magnitude, Mathf.Abs(a - b) + .005f, (a + b) * .985f);
         Vector3 direction = delta.sqrMagnitude > .00001f ? delta.normalized : transform.forward;
         Vector3 bend = Vector3.ProjectOnPlane(transform.TransformDirection(pole), direction).normalized;
         if (bend.sqrMagnitude < .001f) bend = transform.right;

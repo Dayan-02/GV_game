@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class Phase10Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 10 - Tactical Ambusher")]
+    [MenuItem("Dead city/Phase 10 - Tactical Ambusher")]
     public static void Build()
     {
         OutbreakEditor.Open();

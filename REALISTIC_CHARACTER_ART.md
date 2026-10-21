@@ -45,7 +45,7 @@ Enemy root [existing brain, movement, health, combat]
 
 The project remains on Unity 6000.5.3f1, Built-in rendering and the existing Input/Animator packages. No paid assets or new runtime packages are required.
 
-- Use **Zombie Outbreak > Art > Apply imported people and zombies** to reapply the character import and poses, then **Apply imported weapon models** for the four guns. These authoring commands overwrite generated art bindings; preserve custom art edits first.
+- Use **Dead city > Art > Apply imported people and zombies** to reapply the character import and poses, then **Apply imported weapon models** for the four guns. These authoring commands overwrite generated art bindings; preserve custom art edits first.
 - The older character art menu now delegates to these imported-asset commands when the real human model is present.
 - Player Animator: `Survivor.overrideController`, root motion off. Existing Speed, Horizontal, Vertical, IsAiming, IsGrounded, IsSprinting and action parameters are retained.
 - Zombie Animator: per-type override of `Infected.controller`, root motion off. Visual yaw is -90 degrees because this source Avatar faces +X. Leave gameplay/collider roots facing +Z.

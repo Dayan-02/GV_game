@@ -22,7 +22,7 @@
 
 ## Reproduce in Unity
 
-With Play Mode stopped, use **Zombie Outbreak > Art > Repair player feet and zombie locomotion**. This saves open scenes, regenerates the corrected rig/actions/controllers, updates the five enemy prefabs, configures player feet and saves ZombieMap. Existing licensed assets must remain present. Running older full art-setup menus may restore the older rigs; rerun this repair afterward.
+With Play Mode stopped, use **Dead city > Art > Repair player feet and zombie locomotion**. This saves open scenes, regenerates the corrected rig/actions/controllers, updates the five enemy prefabs, configures player feet and saves ZombieMap. Existing licensed assets must remain present. Running older full art-setup menus may restore the older rigs; rerun this repair afterward.
 
 No additional package is required. Player IK needs the existing base-layer IK pass and Environment-layer colliders. Enemy root motion stays disabled because NavMesh controls translation.
 

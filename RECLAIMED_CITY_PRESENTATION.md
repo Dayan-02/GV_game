@@ -5,7 +5,7 @@ This pass uses The Last of Us Part I as an art-direction reference: worn survivo
 ## Open and play
 
 Gameplay scene: `Assets/Scenes/EnhancedCity/ZombieMap.unity`.
-Windows executable: `Builds/Windows/ZombieOutbreak.exe` (keep the whole Windows folder together).
+Windows executable: `Builds/Windows/DeadCity.exe` (keep the whole Windows folder together).
 
 ## Environment
 

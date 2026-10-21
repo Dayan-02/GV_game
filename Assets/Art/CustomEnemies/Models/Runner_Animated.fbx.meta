@@ -3,7 +3,12 @@ guid: 656f5a2c000c67547a5fa8469ec988db
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Runner_Sculpt4_PBR_Atlas
+    second: {fileID: 2100000, guid: 5122c5e5332722742b31dba2e18bcc36, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

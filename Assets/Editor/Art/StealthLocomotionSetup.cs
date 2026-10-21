@@ -14,7 +14,7 @@ using Object=UnityEngine.Object;
 public static class StealthLocomotionSetup
 {
     public const string Root="Assets/Animations/StealthLocomotion";
-    [MenuItem("Tools/Dead Zone/Apply reference locomotion")]
+    [MenuItem("Tools/Dead city/Apply reference locomotion")]
     public static void Apply()
     {
         if(EditorApplication.isPlaying)throw new Exception("Leave Play Mode first.");

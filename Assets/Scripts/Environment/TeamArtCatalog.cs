@@ -4,7 +4,7 @@ using UnityEngine;
 /// Optional handoff for original team models. Empty fields keep the playable greybox in place.
 /// This asset records references only; imported or generated art must keep its real authorship.
 /// </summary>
-[CreateAssetMenu(menuName = "Zombie Outbreak/Team Art Catalog")]
+[CreateAssetMenu(menuName = "Dead city/Team Art Catalog")]
 public sealed class TeamArtCatalog : ScriptableObject
 {
     [Header("Original humanoid model")]

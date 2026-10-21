@@ -19,7 +19,7 @@ public static class ExistingCityEnhancer
     private static Material brick, concrete, iron, wood, dark, glass, paint, wear, pale;
     private static readonly Dictionary<Material, Material> copies = new Dictionary<Material, Material>();
 
-    [MenuItem("Tools/Dead Zone/Enhance Existing City")]
+    [MenuItem("Tools/Dead city/Enhance Existing City")]
     public static void Enhance()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Stop Play Mode before editing the environment.");

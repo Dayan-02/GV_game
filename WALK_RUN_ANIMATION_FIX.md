@@ -48,7 +48,7 @@ Zero degrees means a straight knee. Higher sole values during running/sprinting 
 
 - `D:/GV project/Assets/Editor/Art/PlayerSourceMotionImport.cs`: imports private player motion copies against the original source Avatar; no GameObject component required.
 - `D:/GV project/Assets/Editor/Art/PlayerInPlaceMotion.cs`: preserves native animation tracks, removes horizontal travel and fits boot sole height; Editor-only.
-- `D:/GV project/Assets/Editor/Art/PlayerWalkRunCorrection.cs`: reuses the active controller, calibrates stride/phase and saves the player prefab and enhanced scene. Menu: Tools → Dead Zone → Correct existing player walk and run.
+- `D:/GV project/Assets/Editor/Art/PlayerWalkRunCorrection.cs`: reuses the active controller, calibrates stride/phase and saves the player prefab and enhanced scene. Menu: Tools → Dead city → Correct existing player walk and run.
 - `D:/GV project/Assets/Scripts/Player/PlayerAnimatorDriver.cs`: existing player-root component; referenced Animator, motor, aim and health remain assigned. Its direct measured-Speed behavior from the preceding revision remains.
 - `D:/GV project/Assets/Animations/PlayerSourceRig/`: original reference rig, private animation FBXs, source hashes and Unity Companion license notice. No package purchase or package upgrade.
 - `D:/GV project/Assets/Animations/PlayerGrounded/NaturalIdle.anim`, `NaturalWalk.anim`, `NaturalRun.anim`, `NaturalSprint.anim`: regenerated native assets, existing gait GUIDs retained.
@@ -59,7 +59,7 @@ Zero degrees means a straight knee. Higher sole values during running/sprinting 
 - Source rig comparison: `Logs/SharedRigInspection.txt`, `Logs/InPlaceRigInspection.txt`, `Logs/DetrendedRootInspection.txt`.
 - Final gait calibration: `Logs/WalkRunCorrection.txt`.
 - Three-angle preview: `Previews/PlayerJitter-2026-10-15/CorrectedPlayerMovement.mp4`, 240 frames / 8 seconds. Shows the current Animator over a ground grid from side/front/rear. Physics and runtime scripts are disabled in this authoring preview; it is not a substitute for gameplay observation.
-- Windows x64 build: succeeded, 0 errors, 1 warning, 480,276,492 bytes. `Logs/PlayerJitterBuildSummary.txt`. Updated executable: `Builds/Windows/ZombieOutbreak.exe`; updated distribution: `Builds/ZombieOutbreak-Windows.zip`.
+- Windows x64 build: succeeded, 0 errors, 1 warning, 480,276,492 bytes. `Logs/PlayerJitterBuildSummary.txt`. Updated executable: `Builds/Windows/DeadCity.exe`; updated distribution: `Builds/ZombieOutbreak-Windows.zip`.
 - Main Editor hit a Direct3D 12 graphics crash during import; the isolated preview also initially crashed while the city editor was open. Reopened using Direct3D 11; closing the main Editor during the isolated render completed all 240 frames successfully. No player-facing renderer settings were changed.
 - The user completed the live walk/run review and reported: done and it looks smooth. The after-recorder ended with zero frames, so no measured after-gameplay telemetry is claimed. The numerical after-values above come from native authoring samples. No automated gameplay suite was added or run.
 - Original map SHA-256 remains `BC1D62E75E604F47164C248A4C1F09E50D8952B122BD3C029824FFEDADB31431`.
@@ -311,7 +311,7 @@ public static class PlayerWalkRunCorrection
     const string ControllerPath = "Assets/Animations/StealthLocomotion/Survivor.controller";
     const string OverridesPath = "Assets/Animations/StealthLocomotion/ReferenceSurvivor.overrideController";
 
-    [MenuItem("Tools/Dead Zone/Correct existing player walk and run")]
+    [MenuItem("Tools/Dead city/Correct existing player walk and run")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying)

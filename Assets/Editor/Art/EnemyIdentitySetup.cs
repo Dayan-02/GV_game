@@ -17,7 +17,7 @@ public static class EnemyIdentitySetup
     public static readonly string[] Kinds = { "Hunter", "Runner", "Ambusher", "Elite" };
     private const string Motion = "Assets/Animations/InfectedLocomotion/";
 
-    [MenuItem("Zombie Outbreak/Enemies/Apply distinct identities and attacks")]
+    [MenuItem("Dead city/Enemies/Apply distinct identities and attacks")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Exit Play Mode first.");

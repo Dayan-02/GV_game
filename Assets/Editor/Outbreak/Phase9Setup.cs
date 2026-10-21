@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class Phase9Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 9 - Runner utility AI")]
+    [MenuItem("Dead city/Phase 9 - Runner utility AI")]
     public static void Build()
     {
         OutbreakEditor.Open();

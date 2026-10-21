@@ -8,7 +8,7 @@ Cleanup completed 20 October 2026 at the project owner's request.
 - Menu: `Assets/Scenes/MainMenu.unity`
 - Loadout: `Assets/Scenes/Loadout.unity`
 - Gameplay: `Assets/Scenes/EnhancedCity/ZombieMap.unity`
-- Standalone game: `Builds/Windows/ZombieOutbreak.exe`, with its entire containing folder.
+- Standalone game: `Builds/Windows/DeadCity.exe`, with its entire containing folder.
 
 ## Removed
 

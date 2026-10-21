@@ -19,7 +19,7 @@ public static class PlayerWalkRunCorrection
     const string ControllerPath = "Assets/Animations/StealthLocomotion/Survivor.controller";
     const string OverridesPath = "Assets/Animations/StealthLocomotion/ReferenceSurvivor.overrideController";
 
-    [MenuItem("Tools/Dead Zone/Correct existing player walk and run")]
+    [MenuItem("Tools/Dead city/Correct existing player walk and run")]
     public static void Apply()
     {
         if (EditorApplication.isPlaying)

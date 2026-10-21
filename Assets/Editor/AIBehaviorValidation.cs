@@ -28,7 +28,7 @@ public static class AIBehaviorValidation
 
     static AIBehaviorValidation() { EditorApplication.update += Tick; }
 
-    [MenuItem("Zombie Outbreak/AI/Run isolated behavior validation")]
+    [MenuItem("Dead city/AI/Run isolated behavior validation")]
     public static void Run()
     {
         if (EditorApplication.isPlaying) throw new InvalidOperationException("Stop Play Mode before validation.");

@@ -19,7 +19,7 @@ public static class CustomBlenderEnemySetup
     static readonly float[] WalkSeconds = { .95f, .85f, 1.1f, 1.1f };
     static readonly float[] ChaseSeconds = { .70f, .56f, .68f, .78f };
 
-    [MenuItem("Tools/Dead Zone/Import custom Blender enemies")]
+    [MenuItem("Tools/Dead city/Import custom Blender enemies")]
     public static void Apply()
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode)
@@ -125,6 +125,9 @@ public static class CustomBlenderEnemySetup
     static Material Surface(string name)
     {
         name = name.Replace(" (Instance)", "");
+        const string sculptSuffix = "_Sculpt4_PBR_Atlas";
+        if (name.EndsWith(sculptSuffix, StringComparison.Ordinal))
+            return SculptedEnemyImport.MaterialFor(name.Substring(0, name.Length - sculptSuffix.Length));
         string path = Root + "/Materials/" + name + ".mat";
         var material = AssetDatabase.LoadAssetAtPath<Material>(path);
         if (material == null)

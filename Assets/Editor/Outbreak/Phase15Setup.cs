@@ -6,7 +6,7 @@ using UnityEngine.Rendering;
 
 public static class Phase15Setup
 {
-    [MenuItem("Zombie Outbreak/Phase 15 - Night district and effects")]
+    [MenuItem("Dead city/Phase 15 - Night district and effects")]
     public static void Build()
     {
         OutbreakEditor.Open();
